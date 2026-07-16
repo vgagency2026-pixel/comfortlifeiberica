@@ -1,0 +1,50 @@
+/* Design tokens — Comfort Life Ibérica (Manual Maestro, Cap. 26/28/49) */
+@theme {
+  /* Color — paleta oficial del manual de marca. Cinco colores aprobados;
+     los tonos "-light/-medium/-dark" son variaciones tonales del mismo
+     color, no colores nuevos (necesarias para el ritmo claro/oscuro
+     de secciones y los estados de hover). */
+  --color-chocolate: #2a1c17;
+  --color-chocolate-medium: #3a2a24;
+  --color-chocolate-light: #4a362e;
+  --color-ivory: #f3ebdd;
+  --color-ivory-warm: #ede4d3;
+  --color-gold-rose: #c79a8b;
+  --color-gold-rose-light: #d4b0a3;
+  --color-gold-rose-dark: #a67d6e;
+  --color-champagne: #c7a56a;
+  --color-champagne-dark: #a8863e;
+  --color-olive: #5d6b4f;
+  --color-olive-light: #7a8b67;
+
+  /* Tipografía — exclusivamente las tres familias aprobadas por el manual */
+  --font-editorial: "Cormorant Garamond", Georgia, serif;
+  --font-ui: "Montserrat", "Helvetica Neue", sans-serif;
+  --font-body: "Lato", "Helvetica Neue", sans-serif;
+
+  /* Escala tipográfica editorial */
+  --text-display-2xl: 8rem;
+  --text-display-xl: 6rem;
+  --text-display-lg: 4.5rem;
+  --text-display-md: 3.75rem;
+  --text-display-sm: 3rem;
+  --text-heading-xl: 2.25rem;
+  --text-heading-lg: 1.875rem;
+  --text-heading-md: 1.5rem;
+  --text-heading-sm: 1.25rem;
+  --text-body-lg: 1.125rem;
+  --text-body: 1.0625rem;
+  --text-body-sm: 0.9375rem;
+  --text-caption: 0.8125rem;
+  --text-overline: 0.75rem;
+
+  /* Easing (Cap. 26 y 34) */
+  --ease-elegant: cubic-bezier(0.25, 0.1, 0.25, 1);
+  --ease-dramatic: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-smooth: cubic-bezier(0.4, 0, 0.6, 1);
+
+  /* Layout */
+  --container-content: 1440px;
+  --container-prose: 760px;
+  --container-narrow: 560px;
+}
