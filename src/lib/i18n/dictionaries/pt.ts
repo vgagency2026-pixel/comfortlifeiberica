@@ -528,6 +528,8 @@ export const pt: Dictionary = {
       successTitle: "Obrigado por nos escrever.",
       successText:
         "Recebemos a sua mensagem. Responderemos pessoalmente num prazo máximo de dois dias úteis.",
+      errorText:
+        "Não foi possível enviar a sua mensagem. Tente novamente ou escreva-nos diretamente para hola@comfortlifeiberica.com.",
     },
   },
   languageSwitcher: {

@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { cn } from "@/lib/utils/cn";
 import type { Dictionary } from "@/lib/i18n/types";
 
-type Status = "idle" | "submitting" | "sent";
+type Status = "idle" | "submitting" | "sent" | "error";
 
 const fieldClass =
   "peer w-full border-b border-ivory/25 bg-transparent py-4 font-body text-body text-ivory placeholder-transparent focus:border-gold-rose focus:outline-none ease-elegant transition-colors duration-500";
@@ -20,12 +20,34 @@ export function ContactForm({
 }) {
   const [status, setStatus] = useState<Status>("idle");
 
-  function handleSubmit(event: FormEvent<HTMLFormElement>) {
+  async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     setStatus("submitting");
-    // Nota: sin backend conectado todavía. Simula el envío para validar
-    // la experiencia de UI; sustituir por una ruta real antes de producción.
-    window.setTimeout(() => setStatus("sent"), 900);
+
+    const formData = new FormData(event.currentTarget);
+    const payload = {
+      name: String(formData.get("name") ?? ""),
+      establishment: String(formData.get("establishment") ?? ""),
+      type: String(formData.get("type") ?? ""),
+      email: String(formData.get("email") ?? ""),
+      message: String(formData.get("message") ?? ""),
+    };
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+
+      if (!response.ok) {
+        throw new Error("La solicitud de contacto ha fallado.");
+      }
+
+      setStatus("sent");
+    } catch {
+      setStatus("error");
+    }
   }
 
   return (
@@ -59,6 +81,7 @@ export function ContactForm({
               <div className="relative">
                 <input
                   id="name"
+                  name="name"
                   required
                   placeholder={dict.name}
                   className={fieldClass}
@@ -73,6 +96,7 @@ export function ContactForm({
               <div className="relative">
                 <input
                   id="establishment"
+                  name="establishment"
                   required
                   placeholder={dict.establishment}
                   className={fieldClass}
@@ -96,6 +120,7 @@ export function ContactForm({
                 </label>
                 <select
                   id="type"
+                  name="type"
                   required
                   defaultValue=""
                   className={cn(
@@ -124,6 +149,7 @@ export function ContactForm({
               <div className="relative">
                 <input
                   id="email"
+                  name="email"
                   type="email"
                   required
                   placeholder={dict.email}
@@ -141,6 +167,7 @@ export function ContactForm({
             <div className="relative">
               <textarea
                 id="message"
+                name="message"
                 required
                 rows={4}
                 placeholder={dict.message}
@@ -168,7 +195,13 @@ export function ContactForm({
               </span>
             </button>
 
-            <p className="font-ui text-caption text-ivory/40">{dict.note}</p>
+            {status === "error" ? (
+              <p className="font-ui text-caption text-gold-rose leading-relaxed">
+                {dict.errorText}
+              </p>
+            ) : (
+              <p className="font-ui text-caption text-ivory/40">{dict.note}</p>
+            )}
           </motion.form>
         )}
       </AnimatePresence>

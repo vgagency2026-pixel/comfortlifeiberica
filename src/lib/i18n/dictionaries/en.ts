@@ -524,6 +524,8 @@ export const en: Dictionary = {
       successTitle: "Thank you for writing to us.",
       successText:
         "We have received your message. We will respond personally within a maximum of two business days.",
+      errorText:
+        "We were unable to send your message. Please try again, or write to us directly at hola@comfortlifeiberica.com.",
     },
   },
   languageSwitcher: {

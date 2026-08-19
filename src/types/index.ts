@@ -9,3 +9,4 @@ export type {
   Pairing,
 } from "./product";
 export type { Experience } from "./experience";
+export type { ContactSubmission } from "./contact";

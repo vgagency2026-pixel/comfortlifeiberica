@@ -164,6 +164,7 @@ export interface Dictionary {
       note: string;
       successTitle: string;
       successText: string;
+      errorText: string;
     };
   };
   languageSwitcher: {
