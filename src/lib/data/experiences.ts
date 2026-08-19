@@ -12,7 +12,7 @@ export const EXPERIENCES: ExperienceMeta[] = [
     slug: "seis-meses-de-paciencia",
     readingTime: "6 min",
     publishedAt: "2024-04-02",
-    image: MEDIA.bodegonCiruelasMarcoNegro,
+    image: MEDIA.quesoCuevaExperiencia,
   },
   {
     id: "experience-la-montanera",

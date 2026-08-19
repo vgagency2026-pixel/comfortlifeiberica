@@ -223,4 +223,39 @@ export const MEDIA = {
     1080,
     "Copa de cóctel sobre un brazo de sillón de terciopelo rojo, mobiliario de madera al fondo",
   ),
+  // Pexels License — Betül Kaya (pexels.com/photo/38928225), sin coste ni atribución obligatoria
+  olivarCentenario: img(
+    "olivar-centenario.jpg",
+    2400,
+    1600,
+    "Olivar centenario con troncos retorcidos iluminados por la luz dorada del atardecer entre el follaje",
+  ),
+  // Unsplash License — Zetong Li (unsplash.com/photos/photo-1772950399275), sin coste ni atribución obligatoria
+  costaMarAtlantico: img(
+    "costa-mar-atlantico.jpg",
+    2400,
+    1477,
+    "Roquedos y agujas de piedra en la orilla, olas rompiendo bajo un cielo de atardecer dorado",
+  ),
+  // Fotografía nueva aportada por el cliente (carpeta VINOS/images 2/)
+  montanaVinedo: img(
+    "montana-vinedo.jpg",
+    941,
+    1672,
+    "Viñedo en hileras visto desde un pórtico de piedra, colinas boscosas y sol poniente al fondo",
+  ),
+  // Fotografía nueva aportada por el cliente (carpeta VINOS/images 2/)
+  quesoCuevaExperiencia: img(
+    "queso-cueva-experiencia.jpg",
+    1023,
+    1537,
+    "Tabla de quesos artesanos en distintos cortes junto a embutido ibérico y frutos rojos, sobre madera rústica",
+  ),
+  // Fotografía nueva aportada por el cliente (carpeta VINOS/images 2/)
+  experienciasHombreVino: img(
+    "experiencias-hombre-vino.jpg",
+    1023,
+    1537,
+    "Hombre de perfil oliendo una copa de vino blanco, luz cálida y ambiente íntimo",
+  ),
 } as const;

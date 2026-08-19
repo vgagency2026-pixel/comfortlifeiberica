@@ -24,12 +24,12 @@ export default async function ExperienciasPage() {
     <>
       <section className="relative flex min-h-[70vh] items-end">
         <FramedImage
-          src={MEDIA.cortezaQueso.url}
-          alt={MEDIA.cortezaQueso.alt}
+          src={MEDIA.experienciasHombreVino.url}
+          alt={MEDIA.experienciasHombreVino.alt}
           priority
           cursorExplore={false}
           frameless
-          objectPosition="50% 30%"
+          objectPosition="50% 25%"
           className="absolute inset-0"
         />
         <div className="from-chocolate via-chocolate/35 to-chocolate/5 pointer-events-none absolute inset-0 bg-gradient-to-t" />
