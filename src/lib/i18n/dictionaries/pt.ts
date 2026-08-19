@@ -107,7 +107,7 @@ export const pt: Dictionary = {
       concept: "Pedra, altitude e espera",
       poeticTitle: "Antes do copo, houve uma montanha.",
       editorial:
-        "A vinha não escolhe o solo: herda-o. Granito, xisto, areia moldada por séculos de chuva — cada um impõe o seu próprio silêncio à uva, muito antes de existir adega.",
+        "A vinha não escolhe o solo: herda-o. Granito, xisto, areia moldada por séculos de chuva. Cada um impõe o seu próprio silêncio à uva, muito antes de existir adega.",
       closingLine: [
         "Castas antigas",
         "Altitude de montanha",
@@ -129,7 +129,7 @@ export const pt: Dictionary = {
       concept: "Pedra, cova e tempo",
       poeticTitle: "Nenhuma receita apressa uma espera.",
       editorial:
-        "O leite é apenas o começo. O que acontece depois —semanas, por vezes meses, dentro de uma cova que não apressa ninguém— é o que verdadeiramente transforma uma peça naquilo que virá a ser.",
+        "O leite é apenas o começo. O que acontece depois, semanas, por vezes meses, dentro de uma cova que não apressa ninguém, é o que verdadeiramente transforma uma peça naquilo que virá a ser.",
       closingLine: ["Covas naturais", "Leite cru", "Espera artesanal"],
     },
     embutidos: {
@@ -167,8 +167,8 @@ export const pt: Dictionary = {
   salas: {
     vinos: {
       narrative: [
-        "Nenhuma técnica de adega corrige uma má decisão de origem. A vinha planta-se uma única vez, e essa escolha — esta encosta, não a do outro lado do vale; este granito, não o xisto mais além — decide quase tudo o que se segue. O vinho, quando finalmente chega ao copo, pouco mais faz do que confirmá-lo.",
-        "Na montanha, o dia aquece e a noite arrefece, e essa diferença —invisível, mas constante— é o que tempera um vinho de altitude. Tintos de carácter sereno, brancos de tensão mineral, rosés que mal tocam a película da uva, espumantes que aprendem a paciência dentro da garrafa: cada estilo responde ao mesmo clima, vivido de forma distinta.",
+        "Nenhuma técnica de adega corrige uma má decisão de origem. A vinha planta-se uma única vez: esta encosta e não a do outro lado do vale, este granito e não o xisto mais além. Essa escolha decide quase tudo o que se segue, e o vinho, quando finalmente chega ao copo, pouco mais faz do que confirmá-lo.",
+        "Na montanha, o dia aquece e a noite arrefece, e essa diferença, invisível mas constante, é o que tempera um vinho de altitude. Tintos de carácter sereno, brancos de tensão mineral, rosés que mal tocam a película da uva, espumantes que aprendem a paciência dentro da garrafa: cada estilo responde ao mesmo clima, vivido de forma distinta.",
         "Preferimos a parcela pequena à extensão. Uma vinha de poucos hectares, vindimada à mão e sem pressa, conta quase sempre uma história mais precisa do que qualquer volume pensado para nunca se esgotar.",
       ],
       productTypes: [
@@ -187,7 +187,7 @@ export const pt: Dictionary = {
     },
     aceites: {
       narrative: [
-        "Há uma luz particular sobre o olival —baixa, dourada, mediterrânica— que nenhuma outra cultura reclama com tanta insistência. A oliveira acompanha a Península há mais de três mil anos e, ainda assim, cada colheita se decide num punhado de horas: entre a queda da azeitona e a sua passagem pelo lagar, o aroma começa, em silêncio, a esvanecer-se.",
+        "Há uma luz particular sobre o olival, baixa, dourada, mediterrânica, que nenhuma outra cultura reclama com tanta insistência. A oliveira acompanha a Península há mais de três mil anos e, ainda assim, cada colheita se decide num punhado de horas: entre a queda da azeitona e a sua passagem pelo lagar, o aroma começa, em silêncio, a esvanecer-se.",
         "Colhe-se em verde, quando a azeitona ainda não amadureceu de todo, porque é nesse momento que guarda as notas mais vivas: folha acabada de cortar, amêndoa tenra, um amargor que desperta em vez de enjoar. A moagem a frio, com quase nenhum calor acrescentado, é a única forma de não trair esse instante.",
         "Do mesmo olival nascem também as azeitonas que se comem inteiras, as conservas da casa e o sal que se perfuma, simplesmente, deixando-o repousar junto à folha da árvore. Tudo pertence ao mesmo silêncio do campo.",
       ],
@@ -204,9 +204,9 @@ export const pt: Dictionary = {
     },
     quesos: {
       narrative: [
-        "Um queijo não se faz: espera-se. O leite —de ovelha, de cabra, de vaca, ou da conversa entre vários— é apenas o primeiro gesto. Tudo o resto acontece depois, a um ritmo que nenhum calendário de produção está autorizado a discutir.",
+        "Um queijo não se faz: espera-se. O leite, de ovelha, de cabra, de vaca, ou da conversa entre vários, é apenas o primeiro gesto. Tudo o resto acontece depois, a um ritmo que nenhum calendário de produção está autorizado a discutir.",
         "Damos prioridade ao leite cru sempre que o processo o permite, porque é ele que conserva a memória exata de um rebanho e de um pasto: o que comeu, onde dormiu, que ar respirou nessa estação. Pasteurizar é, de certo modo, começar a esquecer essa memória.",
-        "As covas de calcário continuam a ser, para muitos pastores e queijeiros, o melhor sistema de maturação alguma vez inventado: humidade constante, temperatura que quase não varia, um microclima que nenhuma câmara industrial reproduz por completo. Lá dentro, curas finas, curados e semicurados aprendem —cada um ao seu ritmo— a tornar-se naquilo que serão.",
+        "As covas de calcário continuam a ser, para muitos pastores e queijeiros, o melhor sistema de maturação alguma vez inventado: humidade constante, temperatura que quase não varia, um microclima que nenhuma câmara industrial reproduz por completo. Lá dentro, curas finas, curados e semicurados aprendem, cada um ao seu ritmo, a tornar-se naquilo que serão.",
       ],
       productTypes: [
         "Queijos de ovelha",
@@ -223,7 +223,7 @@ export const pt: Dictionary = {
     embutidos: {
       narrative: [
         "Antes de existir o presunto, existe a dehesa: azinheiras centenárias, pasto livre, um equilíbrio que nenhum criador inventou, mas aprendeu a respeitar. Durante a montanheira, o porco ibérico percorre essa paisagem todos os dias, à procura da bolota que há de cair quando tiver de cair, não quando convier.",
-        "Essa liberdade de movimento —quilómetros, todos os dias, sob a sombra das azinheiras— é o que infiltra a gordura que depois se reconhece na fatia. De um mesmo animal nascem peças que pouco se parecem entre si: o presunto e a pá, que exigem os secadoiros mais longos; o lombo, a presa e o secreto, que entregam essa gordura infiltrada quase sem intermediários; o chouriço, o salpicão e o morcón, onde o colorau e as especiarias assinam, discretamente, cada casa.",
+        "Essa liberdade de movimento, quilómetros, todos os dias, sob a sombra das azinheiras, é o que infiltra a gordura que depois se reconhece na fatia. De um mesmo animal nascem peças que pouco se parecem entre si: o presunto e a pá, que exigem os secadoiros mais longos; o lombo, a presa e o secreto, que entregam essa gordura infiltrada quase sem intermediários; o chouriço, o salpicão e o morcón, onde o colorau e as especiarias assinam, discretamente, cada casa.",
         "Também a cura não se negoceia com um calendário. Negoceia-se com o ar da serra, com a humidade que a estação decide, com a paciência de quem entende que apressar um secadoiro é, simplesmente, arruiná-lo.",
       ],
       productTypes: [
@@ -239,7 +239,7 @@ export const pt: Dictionary = {
     },
     conservas: {
       narrative: [
-        "Há algo quase museológico numa boa conserva: captura um instante —uma maré, uma estação, um cardume exato— e detém-no dentro de um frasco, para que chegue intacto muito depois de esse momento ter passado. Nenhuma outra técnica gastronómica trabalha tão diretamente contra o relógio.",
+        "Há algo quase museológico numa boa conserva: captura um instante (uma maré, uma estação, um cardume exato) e detém-no dentro de um frasco, para que chegue intacto muito depois de esse momento ter passado. Nenhuma outra técnica gastronómica trabalha tão diretamente contra o relógio.",
         "O atum branco e a sua ventresca, as anchovas curadas em sal, os berbigões, as lambretas e os mexilhões respondem a um mesmo princípio silencioso: quanto menos tempo passa entre a captura e o enlatamento, mais fiel é o resultado ao que o mar entregou nessa manhã. As sardinhas e as ovas seguem a mesma lógica, presas sempre à sua estação.",
         "O caviar, de origem distinta desta tradição atlântica e mediterrânica, partilha no entanto a mesma exigência: manuseamento mínimo, frio constante, respeito absoluto pela matéria-prima.",
       ],
@@ -390,7 +390,7 @@ export const pt: Dictionary = {
         concept: "Três mil anos de sombra e fruto",
         poeticTitle: "Uma árvore que mede o tempo em séculos.",
         editorial:
-          "A oliveira acompanha a Península há mais de três mil anos. Cada colheita —apenas algumas semanas— é um instante minúsculo dentro de um ciclo que nenhum calendário de produção alcança abarcar.",
+          "A oliveira acompanha a Península há mais de três mil anos. Cada colheita, apenas algumas semanas, é um instante minúsculo dentro de um ciclo que nenhum calendário de produção alcança abarcar.",
         closingLine: [
           "Olival centenário",
           "Colheita em verde",
@@ -460,7 +460,7 @@ export const pt: Dictionary = {
         "Um mesmo vale, duas orientações, dois vinhos que nunca poderiam confundir-se.",
       tag: "Vinhos",
       body: [
-        "Nalgumas serras vitícolas do interior peninsular, um mesmo vale pode produzir uvas completamente distintas consoante a orientação do socalco. A encosta sul amadurece mais cedo e dá fruta mais madura. A encosta norte —mais fria, mais lenta, mais tardia— é a que interessa quando o que se procura é tensão, não potência.",
+        "Nalgumas serras vitícolas do interior peninsular, um mesmo vale pode produzir uvas completamente distintas consoante a orientação do socalco. A encosta sul amadurece mais cedo e dá fruta mais madura. A encosta norte, mais fria, mais lenta, mais tardia, é a que interessa quando o que se procura é tensão, não potência.",
         "A amplitude térmica entre o dia e a noite em altitude é o verdadeiro motor dessa tensão: os açúcares avançam com o calor do dia, mas os ácidos e os aromas conservam-se graças ao frio noturno que desce da serra.",
         "Nenhum enólogo consegue fabricar essa amplitude térmica na adega. Só pode escolher, com muito cuidado, em que encosta exata plantar, e depois esperar que a montanha faça o resto do trabalho.",
       ],
@@ -494,7 +494,7 @@ export const pt: Dictionary = {
         "As conservas de costa e os rosés frescos partilham estação, e partilham mesa.",
       tag: "Lifestyle",
       body: [
-        "Há uma estação em que as conservas de costa —anchovas, mexilhões de escabeche— e os rosés de maceração curta parecem escritos pela mesma mão: todos frescos, todos salinos, todos pensados para se beberem e comerem depressa, sem cerimónia.",
+        "Há uma estação em que as conservas de costa (anchovas, mexilhões de escabeche) e os rosés de maceração curta parecem escritos pela mesma mão: todos frescos, todos salinos, todos pensados para se beberem e comerem depressa, sem cerimónia.",
         "Não é preciso uma ocasião especial para abrir uma destas garrafas. É preciso, quando muito, uma mesa no exterior, algo em conserva e a disposição para não olhar para o relógio durante um par de horas.",
       ],
     },

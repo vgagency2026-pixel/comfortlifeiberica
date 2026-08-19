@@ -107,7 +107,7 @@ export const es: Dictionary = {
       concept: "Piedra, altura y espera",
       poeticTitle: "Antes de la copa, hubo una montaña.",
       editorial:
-        "La vid no elige el suelo: lo hereda. Granito, pizarra, arena decantada por siglos de lluvia — cada uno impone su propio silencio a la uva, mucho antes de que exista bodega.",
+        "La vid no elige el suelo: lo hereda. Granito, pizarra, arena decantada por siglos de lluvia. Cada uno impone su propio silencio a la uva, mucho antes de que exista bodega.",
       closingLine: ["Cepas viejas", "Altitud de montaña", "Cosechas breves"],
     },
     aceites: {
@@ -125,7 +125,7 @@ export const es: Dictionary = {
       concept: "Piedra, cueva y tiempo",
       poeticTitle: "Ninguna receta apresura una espera.",
       editorial:
-        "La leche es apenas el principio. Lo que ocurre después —semanas, a veces meses, dentro de una cueva que nadie apresura— es lo que de verdad convierte una pieza en lo que llega a ser.",
+        "La leche es apenas el principio. Lo que ocurre después, semanas, a veces meses, dentro de una cueva que nadie apresura, es lo que de verdad convierte una pieza en lo que llega a ser.",
       closingLine: ["Cuevas naturales", "Leche cruda", "Espera artesana"],
     },
     embutidos: {
@@ -167,8 +167,8 @@ export const es: Dictionary = {
   salas: {
     vinos: {
       narrative: [
-        "Ninguna técnica de bodega corrige una mala decisión de origen. La viña se planta una sola vez, y esa elección —esta ladera, no la de enfrente; este suelo de granito, no el de pizarra del valle vecino— decide casi todo lo que vendrá después. El vino, cuando por fin llega a la copa, no hace más que confirmarlo.",
-        "En la montaña, el día calienta y la noche enfría, y esa diferencia —invisible, pero constante— es la que templa un vino de altura. Tintos de carácter sereno, blancos de tensión mineral, rosados que apenas rozan la piel de la uva, espumosos que aprenden la paciencia dentro de la botella: cada estilo responde a un mismo clima, vivido de un modo distinto.",
+        "Ninguna técnica de bodega corrige una mala decisión de origen. La viña se planta una sola vez: esta ladera y no la de enfrente, este suelo de granito y no el de pizarra del valle vecino. Esa elección decide casi todo lo que vendrá después, y el vino, cuando por fin llega a la copa, no hace más que confirmarlo.",
+        "En la montaña, el día calienta y la noche enfría, y esa diferencia, invisible pero constante, es la que templa un vino de altura. Tintos de carácter sereno, blancos de tensión mineral, rosados que apenas rozan la piel de la uva, espumosos que aprenden la paciencia dentro de la botella: cada estilo responde a un mismo clima, vivido de un modo distinto.",
         "Preferimos la parcela pequeña a la extensión. Una viña de pocas hectáreas, vendimiada a mano y con calma, cuenta casi siempre una historia más precisa que cualquier volumen pensado para no agotarse nunca.",
       ],
       productTypes: [
@@ -187,7 +187,7 @@ export const es: Dictionary = {
     },
     aceites: {
       narrative: [
-        "Hay una luz particular sobre el olivar —baja, dorada, mediterránea— que ningún otro cultivo reclama con tanta insistencia. El olivo lleva más de tres mil años en la Península y, aun así, cada cosecha se juega en un puñado de horas: entre la caída de la aceituna y su paso por la muela, el aroma empieza, en silencio, a desvanecerse.",
+        "Hay una luz particular sobre el olivar, baja, dorada, mediterránea, que ningún otro cultivo reclama con tanta insistencia. El olivo lleva más de tres mil años en la Península y, aun así, cada cosecha se juega en un puñado de horas: entre la caída de la aceituna y su paso por la muela, el aroma empieza, en silencio, a desvanecerse.",
         "Se cosecha en verde, cuando la aceituna todavía no ha madurado del todo, porque es entonces cuando guarda las notas más vivas: hoja recién cortada, almendra tierna, un amargor que despierta antes que empalague. La molienda en frío, sin apenas calor añadido, es la única forma de no traicionar ese instante.",
         "Del mismo olivar nacen también las aceitunas que se comen enteras, los encurtidos de la casa y la sal que se perfuma, sencillamente, dejándola descansar junto a la hoja del árbol. Todo pertenece al mismo silencio del campo.",
       ],
@@ -204,9 +204,9 @@ export const es: Dictionary = {
     },
     quesos: {
       narrative: [
-        "Un queso no se hace: se espera. La leche —de oveja, de cabra, de vaca, o de la conversación entre varias— es solo el primer gesto. Todo lo demás ocurre después, a un ritmo que ningún calendario de producción está autorizado a discutir.",
+        "Un queso no se hace: se espera. La leche, de oveja, de cabra, de vaca, o de la conversación entre varias, es solo el primer gesto. Todo lo demás ocurre después, a un ritmo que ningún calendario de producción está autorizado a discutir.",
         "Preferimos la leche cruda siempre que el proceso lo permite, porque es ella la que conserva la memoria exacta de un rebaño y un pasto: lo que comió, dónde durmió, qué aire respiró esa temporada. Pasteurizar es, en cierto modo, empezar a olvidar esa memoria.",
-        "Las cuevas de piedra caliza siguen siendo, para muchos pastores y queseros, el mejor sistema de maduración jamás inventado: humedad constante, temperatura que apenas varía, un microclima que ninguna cámara industrial reproduce del todo. Ahí dentro, afinados, curados y semicurados aprenden —cada uno a su ritmo— a convertirse en lo que serán.",
+        "Las cuevas de piedra caliza siguen siendo, para muchos pastores y queseros, el mejor sistema de maduración jamás inventado: humedad constante, temperatura que apenas varía, un microclima que ninguna cámara industrial reproduce del todo. Ahí dentro, afinados, curados y semicurados aprenden, cada uno a su ritmo, a convertirse en lo que serán.",
       ],
       productTypes: [
         "Quesos de oveja",
@@ -223,7 +223,7 @@ export const es: Dictionary = {
     embutidos: {
       narrative: [
         "Antes de que exista el jamón, existe la dehesa: encinas centenarias, pasto libre, un equilibrio que ningún ganadero inventó, sino que aprendió a respetar. Durante la montanera, el cerdo ibérico recorre ese paisaje a diario, buscando la bellota que caerá cuando tenga que caer, no cuando convenga.",
-        "Esa libertad de movimiento —kilómetros, cada día, bajo la sombra de las encinas— es lo que infiltra la grasa que después se reconoce en la loncha. De un mismo animal nacen piezas que no se parecen entre sí: el jamón y la paleta, que exigen los secaderos más largos; el lomo, la presa y el secreto, que entregan esa grasa infiltrada casi sin intermediarios; el chorizo, el salchichón y el morcón, donde el pimentón y las especias firman, discretamente, cada casa.",
+        "Esa libertad de movimiento, kilómetros, cada día, bajo la sombra de las encinas, es lo que infiltra la grasa que después se reconoce en la loncha. De un mismo animal nacen piezas que no se parecen entre sí: el jamón y la paleta, que exigen los secaderos más largos; el lomo, la presa y el secreto, que entregan esa grasa infiltrada casi sin intermediarios; el chorizo, el salchichón y el morcón, donde el pimentón y las especias firman, discretamente, cada casa.",
         "La curación tampoco se negocia con un calendario. Se negocia con el aire de la sierra, con la humedad que decide la estación, con la paciencia de quien entiende que apresurar un secadero es, sencillamente, arruinarlo.",
       ],
       productTypes: [
@@ -239,7 +239,7 @@ export const es: Dictionary = {
     },
     conservas: {
       narrative: [
-        "Hay algo casi museográfico en una buena conserva: captura un instante —una marea, una temporada, un cardumen exacto— y lo detiene dentro de un frasco, para que llegue intacto mucho después de que ese momento haya pasado. Ninguna otra técnica gastronómica trabaja tan directamente contra el reloj.",
+        "Hay algo casi museográfico en una buena conserva: captura un instante (una marea, una temporada, un cardumen exacto) y lo detiene dentro de un frasco, para que llegue intacto mucho después de que ese momento haya pasado. Ninguna otra técnica gastronómica trabaja tan directamente contra el reloj.",
         "El bonito del norte y su ventresca, las anchoas curadas en sal, los berberechos, las navajas de roca y los mejillones responden a un mismo principio silencioso: cuanto menos tiempo transcurre entre la captura y el envasado, más fiel es el resultado a lo que el mar entregó esa mañana. Las sardinas y las huevas siguen la misma lógica, atadas siempre a su estación.",
         "El caviar, de origen distinto al de esta tradición atlántica y mediterránea, comparte sin embargo la misma exigencia: manipulación mínima, frío constante, respeto absoluto por la materia prima.",
       ],
@@ -260,7 +260,7 @@ export const es: Dictionary = {
       narrative: [
         "Destilar es, en el fondo, un ejercicio de fuego y paciencia: tomar algo y reducirlo, muy despacio, a su versión más concentrada. En la Península esa disciplina ha dado tradiciones que apenas se parecen entre sí, del orujo gallego, nacido del fuego y la niebla, al vermut del sur, pensado para alargar una sobremesa.",
         "La madera hace el resto del trabajo, en silencio, durante años que nadie apresura. Ginebras de autor, whiskies de maduración propia, brandies que envejecen en barrica y licores de receta casera comparten el mismo criterio: lotes pequeños, tiempos largos, un reposo que ninguna producción a gran escala puede permitirse.",
-        "El vermut ocupa un lugar aparte. No es tanto una bebida como un ritual: una copa que se sirve antes —o después— de la mesa, sin más propósito que estirar la conversación un poco más de lo previsto.",
+        "El vermut ocupa un lugar aparte. No es tanto una bebida como un ritual: una copa que se sirve antes o después de la mesa, sin más propósito que estirar la conversación un poco más de lo previsto.",
       ],
       productTypes: [
         "Ginebras",
@@ -390,7 +390,7 @@ export const es: Dictionary = {
         concept: "Tres mil años de sombra y fruto",
         poeticTitle: "Un árbol que mide el tiempo en siglos.",
         editorial:
-          "El olivo lleva más de tres mil años en la Península. Cada cosecha —apenas unas semanas— es un instante minúsculo dentro de un ciclo que ningún calendario de producción alcanza a abarcar.",
+          "El olivo lleva más de tres mil años en la Península. Cada cosecha, apenas unas semanas, es un instante minúsculo dentro de un ciclo que ningún calendario de producción alcanza a abarcar.",
         closingLine: [
           "Olivar centenario",
           "Cosecha en verde",
@@ -460,7 +460,7 @@ export const es: Dictionary = {
         "Un mismo valle, dos orientaciones, dos vinos que no podrían confundirse.",
       tag: "Vinos",
       body: [
-        "En algunas sierras vitícolas del interior peninsular, un mismo valle puede producir uvas completamente distintas según la orientación del bancal. La ladera sur madura antes y da más fruta madura. La ladera norte —más fría, más lenta, más tardía— es la que interesa cuando lo que se busca es tensión, no potencia.",
+        "En algunas sierras vitícolas del interior peninsular, un mismo valle puede producir uvas completamente distintas según la orientación del bancal. La ladera sur madura antes y da más fruta madura. La ladera norte, más fría, más lenta, más tardía, es la que interesa cuando lo que se busca es tensión, no potencia.",
         "La amplitud térmica entre el día y la noche en altitud es el verdadero motor de esa tensión: los azúcares avanzan con el calor del día, pero los ácidos y los aromas se conservan gracias al frío nocturno que baja desde la sierra.",
         "Ningún enólogo puede fabricar esa amplitud térmica en bodega. Solo puede elegir, con mucho cuidado, en qué ladera exacta plantar, y después esperar a que la montaña haga el resto del trabajo.",
       ],
@@ -494,7 +494,7 @@ export const es: Dictionary = {
         "Las conservas de costa y los rosados frescos comparten estación, y comparten mesa.",
       tag: "Lifestyle",
       body: [
-        "Hay una estación en la que las conservas de costa —anchoas, mejillones en escabeche— y los rosados de maceración corta parecen escritos por la misma mano: todos frescos, todos salinos, todos pensados para beberse y comerse rápido, sin ceremonia.",
+        "Hay una estación en la que las conservas de costa (anchoas, mejillones en escabeche) y los rosados de maceración corta parecen escritos por la misma mano: todos frescos, todos salinos, todos pensados para beberse y comerse rápido, sin ceremonia.",
         "No hace falta una ocasión especial para abrir una de estas botellas. Hace falta, como mucho, una mesa exterior, algo en conserva y la disposición de no mirar el reloj durante un par de horas.",
       ],
     },

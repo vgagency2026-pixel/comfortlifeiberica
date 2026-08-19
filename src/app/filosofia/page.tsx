@@ -106,7 +106,7 @@ export default async function FilosofiaPage() {
                   key={value.title}
                   className="font-body text-body-sm text-ivory/70 border-gold-rose/20 border-l pl-5 leading-relaxed"
                 >
-                  <span className="text-ivory">{value.title}</span> —{" "}
+                  <span className="text-ivory">{value.title}:</span>{" "}
                   {value.text}
                 </li>
               ))}

@@ -14,8 +14,20 @@ h3 {
   letter-spacing: -0.01em;
 }
 
+/* Jost se carga únicamente en los pesos 100 y 200: 200 como base legible
+   para navegación/captions, 100 para los eyebrows en mayúsculas de mayor
+   tracking, donde el trazo extrafino refuerza el carácter editorial. */
+.font-ui {
+  font-weight: 200;
+}
+
+.font-ui.text-overline {
+  font-weight: 100;
+}
+
 .font-ui-label {
   font-family: var(--font-ui);
+  font-weight: 200;
   text-transform: uppercase;
   letter-spacing: 0.15em;
 }

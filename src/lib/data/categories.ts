@@ -50,7 +50,7 @@ export const CATEGORIES: CategoryMeta[] = [
     placeholderVariant: "vino",
     image: MEDIA.garnachaIlustrada,
     coleccionImage: MEDIA.hojaRocioVinedo,
-    salaImage: MEDIA.copaCondensacionMacro,
+    salaImage: MEDIA.broteCepaVinedo,
   },
   {
     slug: "aceites",

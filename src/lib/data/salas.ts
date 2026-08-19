@@ -48,7 +48,7 @@ export const SALAS: SalaContent[] = [
   {
     slug: "quesos",
     narrative: [
-      "Un queso es, ante todo, una decisión sobre el tiempo. La leche —de oveja, de cabra, de vaca o de la mezcla de varias— es solo el punto de partida. Lo que ocurre después, durante semanas o meses de maduración, es lo que determina el carácter final de cada pieza.",
+      "Un queso es, ante todo, una decisión sobre el tiempo. La leche, de oveja, de cabra, de vaca o de la mezcla de varias, es solo el punto de partida. Lo que ocurre después, durante semanas o meses de maduración, es lo que determina el carácter final de cada pieza.",
       "Priorizamos los quesos de leche cruda siempre que el proceso lo permite, porque es la leche cruda la que conserva la microbiota específica de cada rebaño y de cada pasto. Afinados, curados y semicurados conviven en esta sala, cada uno con su propio ritmo de maduración.",
       "Las cuevas naturales de piedra caliza siguen siendo, en muchas queserías artesanas, el mejor sistema de maduración conocido: humedad constante, temperatura estable y un microclima que ninguna cámara industrial reproduce del todo.",
     ],
@@ -67,7 +67,7 @@ export const SALAS: SalaContent[] = [
   {
     slug: "embutidos",
     narrative: [
-      "El cerdo ibérico es, probablemente, el producto que mejor resume el patrimonio gastronómico de la Península. Su capacidad para acumular grasa infiltrada durante la montanera —el periodo en el que se alimenta de bellota en libertad— no tiene equivalente en ninguna otra raza porcina.",
+      "El cerdo ibérico es, probablemente, el producto que mejor resume el patrimonio gastronómico de la Península. Su capacidad para acumular grasa infiltrada durante la montanera, el periodo en el que se alimenta de bellota en libertad, no tiene equivalente en ninguna otra raza porcina.",
       "De esa materia prima nacen piezas muy distintas entre sí. El jamón y la paleta exigen los tiempos de curación más largos. El lomo, la presa y el secreto ofrecen la grasa infiltrada en su expresión más directa. El chorizo, el salchichón y el morcón trasladan ese mismo cerdo a la tradición embutidora, con el pimentón y las especias como firma de cada casa.",
       "En todos los casos, el denominador común es el mismo: curación natural, sin atajos, en secaderos donde la humedad y la temperatura las decide la estación, no un calendario de producción.",
     ],
@@ -107,7 +107,7 @@ export const SALAS: SalaContent[] = [
     narrative: [
       "La destilación es, en esencia, un ejercicio de concentración: tomar algo y reducirlo a su expresión más intensa. En la Península Ibérica esa técnica ha dado lugar a tradiciones muy distintas entre sí, desde el orujo gallego hasta el vermut de aperitivo servido en el sur.",
       "Ginebras de autor, whiskies de maduración propia, brandies envejecidos en barrica y licores artesanos conviven en esta sala bajo el mismo criterio: procesos lentos, lotes reducidos y un respeto por el tiempo de reposo que ninguna producción a gran escala puede permitirse.",
-      "El vermut ocupa un lugar propio: no es tanto una bebida como un ritual de sobremesa, pensado para alargar la conversación antes —o después— de la mesa.",
+      "El vermut ocupa un lugar propio: no es tanto una bebida como un ritual de sobremesa, pensado para alargar la conversación antes o después de la mesa.",
     ],
     productTypes: [
       "Ginebras",

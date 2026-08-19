@@ -107,7 +107,7 @@ export const en: Dictionary = {
       concept: "Stone, altitude, patience",
       poeticTitle: "Before the glass, there was a mountain.",
       editorial:
-        "The vine does not choose its soil — it inherits it. Granite, slate, sand shaped by centuries of rain: each imposes its own quiet on the grape, long before any cellar exists.",
+        "The vine does not choose its soil: it inherits it. Granite, slate, sand shaped by centuries of rain. Each imposes its own quiet on the grape, long before any cellar exists.",
       closingLine: ["Old vines", "Mountain altitude", "Brief vintages"],
     },
     aceites: {
@@ -116,7 +116,7 @@ export const en: Dictionary = {
       concept: "Light, time, aroma",
       poeticTitle: "The olive tree is unhurried; the aroma is not.",
       editorial:
-        "Between tree and mill lie barely a few hours. That margin, so brief it goes almost unnoticed, decides whether the oil keeps the scent of the just-fallen olive — or begins, quietly, to lose it.",
+        "Between tree and mill lie barely a few hours. That margin, so brief it goes almost unnoticed, decides whether the oil keeps the scent of the just-fallen olive, or begins, quietly, to lose it.",
       closingLine: ["Cold-pressed", "Early harvest", "Origin aroma"],
     },
     quesos: {
@@ -125,7 +125,7 @@ export const en: Dictionary = {
       concept: "Stone, cave, time",
       poeticTitle: "No recipe rushes a wait.",
       editorial:
-        "The milk is only the beginning. What happens after — weeks, sometimes months, inside a cave that hurries for no one — is what truly turns a wheel into what it becomes.",
+        "The milk is only the beginning. What happens after, weeks, sometimes months, inside a cave that hurries for no one, is what truly turns a wheel into what it becomes.",
       closingLine: ["Natural caves", "Raw milk", "Artisan wait"],
     },
     embutidos: {
@@ -163,8 +163,8 @@ export const en: Dictionary = {
   salas: {
     vinos: {
       narrative: [
-        "No cellar technique corrects a poor decision of origin. A vineyard is planted once, and that choice — this slope, not the one across the valley; this granite, not the slate beyond it — decides almost everything that follows. The wine, once it finally reaches the glass, does little more than confirm it.",
-        "On the mountain, the day warms and the night cools, and that difference — invisible, yet constant — is what tempers a high-altitude wine. Reds of quiet character, whites of mineral tension, rosés that barely touch the skin, sparkling wines that learn patience inside the bottle: each style answers to the same climate, lived differently.",
+        "No cellar technique corrects a poor decision of origin. A vineyard is planted once: this slope and not the one across the valley, this granite and not the slate beyond it. That choice decides almost everything that follows, and the wine, once it finally reaches the glass, does little more than confirm it.",
+        "On the mountain, the day warms and the night cools, and that difference, invisible yet constant, is what tempers a high-altitude wine. Reds of quiet character, whites of mineral tension, rosés that barely touch the skin, sparkling wines that learn patience inside the bottle: each style answers to the same climate, lived differently.",
         "We favour the small plot over the wide expanse. A vineyard of a few hectares, harvested by hand and without haste, tells a far more precise story than any volume built never to run out.",
       ],
       productTypes: [
@@ -178,12 +178,12 @@ export const en: Dictionary = {
       ],
       spotlight: {
         title: "Sierra de Gredos",
-        text: "A granite massif at the heart of the Peninsula, where certain vines climb past eight hundred metres. Up there, night shows no mercy — it falls all at once, and that sudden drop in temperature etches into the grape a tension no lowland can imitate. Few Iberian wine territories speak so clearly.",
+        text: "A granite massif at the heart of the Peninsula, where certain vines climb past eight hundred metres. Up there, night shows no mercy: it falls all at once, and that sudden drop in temperature etches into the grape a tension no lowland can imitate. Few Iberian wine territories speak so clearly.",
       },
     },
     aceites: {
       narrative: [
-        "There is a particular light over the olive grove — low, golden, Mediterranean — that no other crop demands with such insistence. The olive tree has grown on the Peninsula for more than three thousand years, and still each harvest is decided within a handful of hours: between the olive's fall and its passage through the mill, the aroma begins, silently, to fade.",
+        "There is a particular light over the olive grove, low, golden, Mediterranean, that no other crop demands with such insistence. The olive tree has grown on the Peninsula for more than three thousand years, and still each harvest is decided within a handful of hours: between the olive's fall and its passage through the mill, the aroma begins, silently, to fade.",
         "The harvest comes early, while the olive has not yet fully ripened, because that is when it holds its liveliest notes: fresh-cut leaf, green almond, a bitterness that wakes the palate rather than cloys it. Cold milling, with barely any added heat, is the only way not to betray that instant.",
         "From the same grove come the olives eaten whole, the house's own pickles, and the salt that is perfumed simply by resting beside the tree's own leaf. All of it belongs to the same quiet of the field.",
       ],
@@ -200,9 +200,9 @@ export const en: Dictionary = {
     },
     quesos: {
       narrative: [
-        "A cheese is not made: it is waited for. The milk — sheep's, goat's, cow's, or a conversation between several — is only the first gesture. Everything else happens afterward, at a pace no production calendar is entitled to question.",
+        "A cheese is not made: it is waited for. The milk, sheep's, goat's, cow's, or a conversation between several, is only the first gesture. Everything else happens afterward, at a pace no production calendar is entitled to question.",
         "We favour raw milk whenever the process allows it, because it alone preserves the exact memory of a flock and a pasture: what it grazed on, where it slept, what air it breathed that season. To pasteurise is, in a sense, to begin forgetting that memory.",
-        "Limestone caves remain, for many shepherds and cheesemakers, the finest ageing system ever devised: constant humidity, a temperature that scarcely shifts, a microclimate no industrial chamber fully reproduces. Inside, fine, cured and semi-cured wheels learn — each at its own pace — to become what they will be.",
+        "Limestone caves remain, for many shepherds and cheesemakers, the finest ageing system ever devised: constant humidity, a temperature that scarcely shifts, a microclimate no industrial chamber fully reproduces. Inside, fine, cured and semi-cured wheels learn, each at its own pace, to become what they will be.",
       ],
       productTypes: [
         "Sheep's milk cheeses",
@@ -218,8 +218,8 @@ export const en: Dictionary = {
     },
     embutidos: {
       narrative: [
-        "Before the ham exists, the dehesa exists: centuries-old oaks, free pasture, a balance no farmer invented but learned to respect. During the montanera, the Ibérico pig roams that landscape daily, seeking the acorn that will fall when it falls — never when convenient.",
-        "That freedom of movement — miles, every day, beneath the oaks — is what infiltrates the fat later recognised in the slice. From a single animal come cuts that share almost nothing: the ham and shoulder, which demand the longest drying rooms; the loin, presa and secreto, which offer that same marbled fat almost without translation; the chorizo, salchichón and morcón, where paprika and spice quietly sign each house's name.",
+        "Before the ham exists, the dehesa exists: centuries-old oaks, free pasture, a balance no farmer invented but learned to respect. During the montanera, the Ibérico pig roams that landscape daily, seeking the acorn that will fall when it falls, never when convenient.",
+        "That freedom of movement, miles, every day, beneath the oaks, is what infiltrates the fat later recognised in the slice. From a single animal come cuts that share almost nothing: the ham and shoulder, which demand the longest drying rooms; the loin, presa and secreto, which offer that same marbled fat almost without translation; the chorizo, salchichón and morcón, where paprika and spice quietly sign each house's name.",
         "Curing, too, is never negotiated with a calendar. It is negotiated with mountain air, with humidity set by the season, with the patience of someone who understands that rushing a drying room is simply ruining it.",
       ],
       productTypes: [
@@ -235,7 +235,7 @@ export const en: Dictionary = {
     },
     conservas: {
       narrative: [
-        "There is something almost museological about a fine tinned conserve: it captures an instant — a tide, a season, an exact shoal — and holds it still inside a jar, so it arrives intact long after that moment has passed. No other gastronomic craft works so directly against the clock.",
+        "There is something almost museological about a fine tinned conserve: it captures an instant (a tide, a season, an exact shoal) and holds it still inside a jar, so it arrives intact long after that moment has passed. No other gastronomic craft works so directly against the clock.",
         "White tuna and its ventresca, salt-cured anchovies, cockles, razor clams and mussels answer to a single quiet principle: the less time between catch and tin, the truer the result to what the sea delivered that morning. Sardines and roe follow the same seasonal logic.",
         "Caviar, though of different origin to this Atlantic and Mediterranean tradition, shares with it the same demand: minimal handling, constant cold, absolute respect for the raw material.",
       ],
@@ -256,7 +256,7 @@ export const en: Dictionary = {
       narrative: [
         "To distil is, at heart, an exercise in fire and patience: taking something and reducing it, very slowly, to its most concentrated self. Across the Peninsula that discipline has produced traditions that barely resemble one another, from Galician orujo, born of fire and mist, to the vermouth of the south, made to stretch a lingering meal.",
         "Wood does the rest of the work, quietly, over years no one rushes. Signature gins, single-estate whiskies, barrel-aged brandies and home-recipe liqueurs share the same standard here: small batches, long stretches of time, a rest no large-scale production could ever afford.",
-        "Vermouth holds a place of its own. Less a drink than a ritual — a glass served before, or after, the table, with no purpose but to stretch the conversation a little longer than planned.",
+        "Vermouth holds a place of its own. Less a drink than a ritual: a glass served before, or after, the table, with no purpose but to stretch the conversation a little longer than planned.",
       ],
       productTypes: [
         "Gins",
@@ -330,7 +330,7 @@ export const en: Dictionary = {
       },
     ],
     quoteText:
-      "Silence is the most expensive luxury. Empty space is not the absence of design — it is design's most sophisticated form.",
+      "Silence is the most expensive luxury. Empty space is not the absence of design: it is design's most sophisticated form.",
     quoteAttribution: "Guiding principle, Master Manual",
   },
   productores: {
@@ -386,7 +386,7 @@ export const en: Dictionary = {
         concept: "Three thousand years of shade and fruit",
         poeticTitle: "A tree that measures time in centuries.",
         editorial:
-          "The olive tree has grown on the Peninsula for more than three thousand years. Each harvest — a matter of weeks — is a small instant inside a cycle no production calendar could ever contain.",
+          "The olive tree has grown on the Peninsula for more than three thousand years. Each harvest, a matter of weeks, is a small instant inside a cycle no production calendar could ever contain.",
         closingLine: [
           "Centuries-old grove",
           "Green harvest",
@@ -456,9 +456,9 @@ export const en: Dictionary = {
         "One valley, two orientations, two wines that could never be mistaken for each other.",
       tag: "Wines",
       body: [
-        "In certain wine-growing sierras of the interior, a single valley can produce entirely different grapes depending on which way the terrace faces. The south-facing slope ripens earlier and yields riper fruit. The north-facing slope — cooler, slower, later — is the one that matters when what is sought is tension, not power.",
+        "In certain wine-growing sierras of the interior, a single valley can produce entirely different grapes depending on which way the terrace faces. The south-facing slope ripens earlier and yields riper fruit. The north-facing slope, cooler, slower, later, is the one that matters when what is sought is tension, not power.",
         "The thermal swing between day and night at altitude is the true engine of that tension: sugars advance with the day's heat, but acidity and aroma are preserved by the cold night air coming down from the sierra.",
-        "No winemaker can manufacture that thermal swing in the cellar. All they can do is choose, with great care, exactly which slope to plant — and then wait for the mountain to do the rest of the work.",
+        "No winemaker can manufacture that thermal swing in the cellar. All they can do is choose, with great care, exactly which slope to plant, and then wait for the mountain to do the rest of the work.",
       ],
     },
     "el-aceite-antes-del-aceite": {
@@ -468,7 +468,7 @@ export const en: Dictionary = {
       tag: "Oils",
       body: [
         "Almost no one who tastes a fine extra virgin oil thinks about the logistics behind it. Yet an oil's aromatics are decided, in large part, in the hours between the olive falling from the tree and entering the mill.",
-        "The longer the olives wait in a pile, the more they ferment — and that fermentation produces the defects no later process can correct. That is why quality-driven mills always press as soon as possible after picking.",
+        "The longer the olives wait in a pile, the more they ferment, and that fermentation produces the defects no later process can correct. That is why quality-driven mills always press as soon as possible after picking.",
         "Picking early, while the olive is still unripe, lowers the yield in litres but multiplies the aromatic intensity: notes of tomato leaf, green almond and freshly cut grass that a ripe olive can no longer give.",
         "All of this happens before the oil exists as such. By the time it finally reaches the table, it has already won or lost its character hours before ever being bottled.",
       ],
@@ -481,7 +481,7 @@ export const en: Dictionary = {
       body: [
         "Iberian vermouth was not born as a designer cocktail: it was born as a way to stretch the after-table conversation a little longer, with an aged base wine and a botanical maceration each house guards like its own secret.",
         "Serving it well is, above all, a matter of not hurrying: a large ice cube to dilute it slowly, a thin twist of citrus, and no unnecessary decoration. The ritual lies in the time given to it, not in the presentation.",
-        "A good aperitif does not bring the meal forward. It delays it a little, on purpose — and that is exactly its value.",
+        "A good aperitif does not bring the meal forward. It delays it a little, on purpose, and that is exactly its value.",
       ],
     },
     "un-verano-de-sal-y-vino-rosado": {
@@ -490,7 +490,7 @@ export const en: Dictionary = {
         "Coastal conserves and crisp rosés share a season, and share a table.",
       tag: "Lifestyle",
       body: [
-        "There is a season when coastal conserves —anchovies, pickled mussels— and short-maceration rosés seem written by the same hand: all fresh, all saline, all meant to be drunk and eaten quickly, without ceremony.",
+        "There is a season when coastal conserves (anchovies, pickled mussels) and short-maceration rosés seem written by the same hand: all fresh, all saline, all meant to be drunk and eaten quickly, without ceremony.",
         "No special occasion is needed to open one of these bottles. What it takes, at most, is a table outdoors, something from a tin, and the willingness not to watch the clock for a couple of hours.",
       ],
     },

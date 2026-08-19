@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, Lato, Montserrat } from "next/font/google";
+import { Cormorant_Garamond, Jost } from "next/font/google";
 import { SITE } from "@/lib/constants/site";
 import { MotionProvider } from "@/components/providers/MotionProvider";
 import { Header } from "@/components/layout/Header";
@@ -9,6 +9,7 @@ import { CustomCursor } from "@/components/layout/CustomCursor";
 import { getLocale, getDictionary } from "@/lib/i18n";
 import "./globals.css";
 
+// Cormorant Garamond — títulos (H1/H2/H3), cuerpo editorial y descripciones.
 const cormorantGaramond = Cormorant_Garamond({
   variable: "--font-editorial",
   subsets: ["latin"],
@@ -16,16 +17,20 @@ const cormorantGaramond = Cormorant_Garamond({
   style: ["normal", "italic"],
 });
 
-const montserrat = Montserrat({
-  variable: "--font-ui",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600"],
-});
-
-const lato = Lato({
+// Misma familia, instancia propia para el texto de cuerpo/descripción
+// (--font-body), de modo que ambas variables carguen la tipografía real.
+const cormorantGaramondBody = Cormorant_Garamond({
   variable: "--font-body",
   subsets: ["latin"],
-  weight: ["300", "400", "700"],
+  weight: ["400", "500"],
+  style: ["normal", "italic"],
+});
+
+// Jost, pesos 100/200 — navegación, labels, captions y textos en mayúsculas.
+const jost = Jost({
+  variable: "--font-ui",
+  subsets: ["latin"],
+  weight: ["100", "200"],
 });
 
 export const metadata: Metadata = {
@@ -48,7 +53,7 @@ export default async function RootLayout({
   return (
     <html
       lang={locale}
-      className={`${cormorantGaramond.variable} ${montserrat.variable} ${lato.variable} h-full antialiased`}
+      className={`${cormorantGaramond.variable} ${cormorantGaramondBody.variable} ${jost.variable} h-full antialiased`}
     >
       <body className="bg-chocolate text-ivory flex min-h-full flex-col">
         <MotionProvider>

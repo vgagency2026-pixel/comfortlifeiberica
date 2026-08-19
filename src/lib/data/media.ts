@@ -150,12 +150,15 @@ export const MEDIA = {
     1080,
     "Gota de rocío sobre una hoja de vid, viñedo en terrazas desenfocado al fondo, luz dorada",
   ),
-  // Fotografía nueva aportada por el cliente (carpeta VINOS/)
-  copaCondensacionMacro: img(
-    "vinos-copa-condensacion-macro.jpg",
+  // Fotografía nueva aportada por el cliente (carpeta VINOS/images 2/) —
+  // brote de vid sobre cepa vieja, viñedo desenfocado al fondo. Sustituye
+  // a la copa de condensación (foto duplicada de textura-condensacion-copa,
+  // ya en uso en Destilados, y demasiado ambigua para leerse como vino).
+  broteCepaVinedo: img(
+    "vinos-brote-cepa-vinedo.jpg",
     736,
-    981,
-    "Macro de una copa de vino tinto con condensación y destello de luz cálida",
+    1308,
+    "Brote joven de vid creciendo sobre una cepa vieja y nudosa, viñedo desenfocado al fondo",
   ),
   // Fotografía nueva aportada por el cliente (carpeta VINOS/)
   copaPiano: img(

@@ -17,10 +17,12 @@
   --color-olive: #5d6b4f;
   --color-olive-light: #7a8b67;
 
-  /* Tipografía — exclusivamente las tres familias aprobadas por el manual */
+  /* Tipografía — exclusivamente las dos familias aprobadas por el manual:
+     Cormorant Garamond (títulos, cuerpo editorial, descripciones) y
+     Jost en pesos 100/200 (navegación, labels, captions, mayúsculas). */
   --font-editorial: "Cormorant Garamond", Georgia, serif;
-  --font-ui: "Montserrat", "Helvetica Neue", sans-serif;
-  --font-body: "Lato", "Helvetica Neue", sans-serif;
+  --font-ui: "Jost", "Helvetica Neue", sans-serif;
+  --font-body: "Cormorant Garamond", Georgia, serif;
 
   /* Escala tipográfica editorial */
   --text-display-2xl: 8rem;

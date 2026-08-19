@@ -36,6 +36,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# fotografía fuente en bruto (no se despliega; solo lo copiado a public/images)
+/IMAGENES
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
