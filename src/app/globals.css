@@ -80,6 +80,42 @@ body::before {
     inset 0 0 12px rgba(0, 0, 0, 0.22);
 }
 
+/* Pared de galería (hero alternativo de Sala, prueba piloto en Vinos) —
+   iluminación tenue y cálida que evoca focos de museo sobre las piezas,
+   nunca un fondo plano. Los focos usan los tokens de marca vía color-mix();
+   la sombra de contacto bajo cada pieza es cálida (mezclada con chocolate),
+   no un negro neutro, para que toda la sección lea como una misma luz. */
+.gallery-wall {
+  background-image:
+    radial-gradient(
+      ellipse 65% 50% at 18% 10%,
+      color-mix(in srgb, var(--color-champagne) 22%, transparent) 0%,
+      transparent 70%
+    ),
+    radial-gradient(
+      ellipse 60% 45% at 82% 16%,
+      color-mix(in srgb, var(--color-gold-rose) 20%, transparent) 0%,
+      transparent 70%
+    ),
+    radial-gradient(
+      ellipse 50% 40% at 50% 55%,
+      color-mix(in srgb, var(--color-champagne) 8%, transparent) 0%,
+      transparent 75%
+    ),
+    radial-gradient(
+      ellipse 70% 55% at 50% 100%,
+      color-mix(in srgb, var(--color-chocolate) 55%, black) 0%,
+      transparent 70%
+    );
+}
+
+.gallery-wall-frame {
+  filter: drop-shadow(
+    0 24px 32px
+      color-mix(in srgb, var(--color-chocolate) 70%, black)
+  );
+}
+
 /* Neutraliza el autorrelleno amarillo por defecto del navegador (Chrome/Edge
    inyectan un fondo amarillo pálido en <input> reconocidos por el
    autocompletado). Fuera de la paleta de marca; se sustituye por chocolate. */

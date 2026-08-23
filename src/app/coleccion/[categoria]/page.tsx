@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { FramedImage } from "@/components/ui/FramedImage";
+import { SalaGalleryHero } from "@/components/ui/SalaGalleryHero";
 import { PlaceholderArt } from "@/components/ui/PlaceholderArt";
 import { Reveal } from "@/components/ui/Reveal";
 import { RevealText } from "@/components/ui/RevealText";
@@ -57,8 +58,17 @@ export default async function SalaPage({ params }: SalaPageProps) {
   const salaImage = category.salaImage;
   const salaObjectPosition = category.objectPositionSala;
 
+  const galleryImages = category.salaGalleryImages;
+
   return (
     <>
+      {galleryImages ? (
+        <SalaGalleryHero
+          eyebrow={t.label}
+          title={t.poeticTitle}
+          images={galleryImages}
+        />
+      ) : (
       <section className="relative flex min-h-[80vh] items-end">
         {salaImage ? (
           <FramedImage
@@ -88,6 +98,7 @@ export default async function SalaPage({ params }: SalaPageProps) {
           </h1>
         </div>
       </section>
+      )}
 
       <section className="bg-chocolate px-6 py-28 sm:py-36 lg:px-20">
         <div className="mx-auto max-w-prose space-y-6">

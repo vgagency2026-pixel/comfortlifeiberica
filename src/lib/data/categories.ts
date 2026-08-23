@@ -23,6 +23,12 @@ export interface CategoryMeta {
   /** Imagen de cabecera de la propia Sala — distinta de `image` y `coleccionImage` */
   salaImage: Image | null;
   objectPositionSala?: string;
+  /**
+   * Pared de galería de 4 piezas ya enmarcadas para el hero de la Sala,
+   * en sustitución de `salaImage`. Prueba piloto solo en Vinos — el resto
+   * de salas sigue usando el hero de imagen única (ver CATEGORIES abajo).
+   */
+  salaGalleryImages?: Image[];
 }
 
 /**
@@ -51,6 +57,12 @@ export const CATEGORIES: CategoryMeta[] = [
     image: MEDIA.garnachaIlustrada,
     coleccionImage: MEDIA.hojaRocioVinedo,
     salaImage: MEDIA.broteCepaVinedo,
+    salaGalleryImages: [
+      MEDIA.vinosGaleriaUva,
+      MEDIA.vinosGaleriaVinedo,
+      MEDIA.vinosGaleriaVino,
+      MEDIA.vinosGaleriaExperiencia,
+    ],
   },
   {
     slug: "aceites",

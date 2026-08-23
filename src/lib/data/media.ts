@@ -258,4 +258,34 @@ export const MEDIA = {
     1537,
     "Hombre de perfil oliendo una copa de vino blanco, luz cálida y ambiente íntimo",
   ),
+
+  // Pared de galería de la Sala Vinos — 4 piezas ya enmarcadas en la propia
+  // fotografía, recompuestas sobre un mismo lienzo 4:5 con fondo e
+  // iluminación cálida unificados (ver scripts de proceso, no versionados).
+  // Secuencia narrativa deliberada: uva → viñedo → vino → experiencia.
+  // Prueba piloto solo en Vinos — ver coleccion/[categoria]/page.tsx.
+  vinosGaleriaUva: img(
+    "vinos-galeria-01-uva.jpg",
+    1000,
+    1250,
+    "Racimo de uva tinta en la vid enmarcado en pan de oro, viñedo desenfocado al fondo",
+  ),
+  vinosGaleriaVinedo: img(
+    "vinos-galeria-02-vinedo.jpg",
+    1000,
+    1250,
+    "Sarmiento de vid nudoso enmarcado en dorado, hileras de viñedo desenfocadas al fondo",
+  ),
+  vinosGaleriaVino: img(
+    "vinos-galeria-03-vino.jpg",
+    1000,
+    1250,
+    "Copa de vino tinto sobre una barrica en una bodega de crianza, enmarcada en pan de oro",
+  ),
+  vinosGaleriaExperiencia: img(
+    "vinos-galeria-04-experiencia.jpg",
+    1000,
+    1250,
+    "Marco ovalado dorado barroco con una copa de vino tinto sostenida por una mano enguantada de encaje",
+  ),
 } as const;
