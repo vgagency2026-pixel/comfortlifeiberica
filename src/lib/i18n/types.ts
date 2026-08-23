@@ -93,9 +93,6 @@ export interface Dictionary {
     heroEyebrow: string;
     heroTitleLine1: string;
     heroTitleLine2: string;
-    manifestoEyebrow: string;
-    manifestoQuote: string;
-    manifestoText: string;
     dnaEyebrow: string;
     dnaTitle: string;
     pillars: { title: string; text: string }[];
@@ -106,7 +103,8 @@ export interface Dictionary {
     values: { title: string; text: string }[];
     quoteText: string;
     quoteAttribution: string;
-    founderQuoteText: string;
+    /** Sustituye a la antigua sección "El manifiesto" — sin eyebrow, cierra con la firma del fundador */
+    founderQuoteParagraphs: string[];
     founderName: string;
   };
   productores: {

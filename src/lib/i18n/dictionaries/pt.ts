@@ -276,11 +276,6 @@ export const pt: Dictionary = {
     heroEyebrow: "A nossa filosofia",
     heroTitleLine1: "Não comercializamos produtos.",
     heroTitleLine2: "Honramos origens.",
-    manifestoEyebrow: "O manifesto",
-    manifestoQuote:
-      "Há uma pergunta que precede cada decisão neste projeto: isto parece uma galeria de arte, ou parece uma loja?",
-    manifestoText:
-      "Se a resposta for «uma loja», redesenha-se. Sem negociação, sem exceções por urgência ou por eficiência. Aqui não há catálogos, nem descontos, nem carrinhos de compra, nem o ruído de uma oferta que expira à meia-noite. Há uma coleção que se seleciona, se contextualiza e se apresenta com o mesmo rigor com que um museu apresenta a arte.",
     dnaEyebrow: "O ADN da marca",
     dnaTitle: "Seis pilares que não se negoceiam",
     pillars: [
@@ -336,8 +331,10 @@ export const pt: Dictionary = {
     quoteText:
       "O silêncio é o luxo mais caro. O espaço vazio não é ausência de design: é a forma mais sofisticada de design.",
     quoteAttribution: "Princípio orientador, Manual Mestre",
-    founderQuoteText:
+    founderQuoteParagraphs: [
+      "A Península guarda segredos que não procuram ser descobertos. Vivem na altitude de uma vinha que ninguém visita, no azeite de uma oliveira que está aqui há mil anos, no mar que dita quando se pesca e quando não.",
       "A Comfort Life Ibérica nasceu para escutar esses segredos. E para os levar, sem pressa e sem ruído, à mesa de quem sabe apreciá-los.",
+    ],
     founderName: "Víctor Viana · Embaixador Gastronómico",
   },
   productores: {

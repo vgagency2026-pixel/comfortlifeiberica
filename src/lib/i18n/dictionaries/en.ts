@@ -272,11 +272,6 @@ export const en: Dictionary = {
     heroEyebrow: "Our Philosophy",
     heroTitleLine1: "We do not trade in products.",
     heroTitleLine2: "We honour origins.",
-    manifestoEyebrow: "The manifesto",
-    manifestoQuote:
-      "One question precedes every decision in this project: does this feel like an art gallery, or does it feel like a shop?",
-    manifestoText:
-      "If the answer is «a shop», it gets redesigned. No negotiation, no exceptions for urgency or efficiency. There are no catalogues here, no discounts, no shopping carts, no noise of an offer expiring at midnight. There is a collection, selected, given context, and presented with the same rigour a museum brings to art.",
     dnaEyebrow: "The brand's DNA",
     dnaTitle: "Six pillars that do not bend",
     pillars: [
@@ -332,8 +327,10 @@ export const en: Dictionary = {
     quoteText:
       "Silence is the most expensive luxury. Empty space is not the absence of design: it is design's most sophisticated form.",
     quoteAttribution: "Guiding principle, Master Manual",
-    founderQuoteText:
-      "Comfort Life Ibérica was born to listen to those secrets, and to carry them, unhurried and unannounced, to the table of those who know how to appreciate them.",
+    founderQuoteParagraphs: [
+      "The Peninsula keeps secrets that do not seek to be found. They live in the altitude of a vineyard no one visits, in the oil of an olive tree that has stood here for a thousand years, in the sea that dictates when to fish and when not to.",
+      "Comfort Life Ibérica was born to listen to those secrets. And to carry them, unhurried and unannounced, to the table of those who know how to appreciate them.",
+    ],
     founderName: "Víctor Viana · Gastronomic Ambassador",
   },
   productores: {

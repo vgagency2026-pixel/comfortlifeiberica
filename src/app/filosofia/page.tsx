@@ -13,7 +13,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const dict = getDictionary(await getLocale());
   return {
     title: dict.filosofia.heroEyebrow,
-    description: dict.filosofia.manifestoText,
+    description: dict.filosofia.founderQuoteParagraphs[0],
   };
 }
 
@@ -23,7 +23,7 @@ export default async function FilosofiaPage() {
 
   return (
     <>
-      <section className="relative flex min-h-[92vh] items-center justify-center text-center">
+      <section className="relative min-h-[85vh]">
         <FramedImage
           src={MEDIA.filosofiaHeroMiradorVinedo.url}
           alt={MEDIA.filosofiaHeroMiradorVinedo.alt}
@@ -32,13 +32,27 @@ export default async function FilosofiaPage() {
           frameless
           objectPosition="60% 35%"
           className="absolute inset-0"
-          imgClassName="brightness-[0.7]"
         />
-        <div className="bg-chocolate/55 pointer-events-none absolute inset-0" />
-        <Reveal className="relative mx-auto max-w-2xl px-6 lg:px-20">
-          <h1 className="font-editorial text-heading-lg sm:text-display-sm text-ivory leading-snug italic">
-            {t.founderQuoteText}
+      </section>
+
+      <section className="bg-chocolate px-6 py-28 sm:py-36 lg:px-20">
+        <Reveal className="mx-auto max-w-2xl text-center">
+          <Eyebrow>{t.heroEyebrow}</Eyebrow>
+          <h1 className="font-editorial text-display-sm sm:text-display-md text-ivory mt-6 leading-[1.05]">
+            <RevealText text={t.heroTitleLine1} />
+            <br />
+            <RevealText text={t.heroTitleLine2} delay={0.5} />
           </h1>
+        </Reveal>
+      </section>
+
+      <section className="bg-chocolate-medium px-6 py-28 sm:py-36 lg:px-20">
+        <Reveal className="mx-auto max-w-2xl text-center">
+          <blockquote className="font-editorial text-heading-sm sm:text-heading-lg text-ivory/90 space-y-6 leading-relaxed italic">
+            {t.founderQuoteParagraphs.map((paragraph, i) => (
+              <p key={i}>{paragraph}</p>
+            ))}
+          </blockquote>
           <Divider
             tone="gold-rose"
             align="center"
@@ -58,34 +72,6 @@ export default async function FilosofiaPage() {
             {t.founderName}
           </p>
         </Reveal>
-      </section>
-
-      <section className="bg-chocolate px-6 py-28 sm:py-36 lg:px-20">
-        <Reveal className="mx-auto max-w-2xl text-center">
-          <Eyebrow>{t.heroEyebrow}</Eyebrow>
-          <h2 className="font-editorial text-display-sm sm:text-display-md text-ivory mt-6 leading-[1.05]">
-            <RevealText text={t.heroTitleLine1} />
-            <br />
-            <RevealText text={t.heroTitleLine2} delay={0.5} />
-          </h2>
-        </Reveal>
-      </section>
-
-      <section className="bg-chocolate-medium px-6 py-28 sm:py-36 lg:px-20">
-        <div className="mx-auto max-w-3xl">
-          <Reveal>
-            <Eyebrow>{t.manifestoEyebrow}</Eyebrow>
-            <p className="font-editorial text-heading-lg sm:text-display-sm text-ivory mt-6 leading-snug">
-              {t.manifestoQuote}
-            </p>
-          </Reveal>
-          <Reveal delay={0.15}>
-            <Divider className="my-10" />
-            <p className="font-body text-body-lg text-ivory/70 leading-relaxed">
-              {t.manifestoText}
-            </p>
-          </Reveal>
-        </div>
       </section>
 
       <section className="bg-ivory px-6 py-28 sm:py-36 lg:px-20">
