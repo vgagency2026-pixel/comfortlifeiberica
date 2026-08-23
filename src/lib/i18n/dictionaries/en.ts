@@ -332,6 +332,9 @@ export const en: Dictionary = {
     quoteText:
       "Silence is the most expensive luxury. Empty space is not the absence of design: it is design's most sophisticated form.",
     quoteAttribution: "Guiding principle, Master Manual",
+    founderQuoteText:
+      "Comfort Life Ibérica was born to listen to those secrets, and to carry them, unhurried and unannounced, to the table of those who know how to appreciate them.",
+    founderName: "Víctor Viana, Founder",
   },
   productores: {
     heroEyebrow: "Producers",

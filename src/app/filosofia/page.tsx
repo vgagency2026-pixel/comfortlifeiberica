@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { FramedImage } from "@/components/ui/FramedImage";
 import { Reveal } from "@/components/ui/Reveal";
 import { RevealText } from "@/components/ui/RevealText";
@@ -24,11 +25,12 @@ export default async function FilosofiaPage() {
     <>
       <section className="relative flex min-h-[85vh] items-end">
         <FramedImage
-          src={MEDIA.bodegonCiruelas.url}
-          alt={MEDIA.bodegonCiruelas.alt}
+          src={MEDIA.filosofiaHeroMiradorVinedo.url}
+          alt={MEDIA.filosofiaHeroMiradorVinedo.alt}
           priority
           cursorExplore={false}
           frameless
+          objectPosition="60% 35%"
           className="absolute inset-0"
           imgClassName="brightness-[0.85]"
         />
@@ -118,6 +120,27 @@ export default async function FilosofiaPage() {
       <section className="bg-chocolate px-6 py-32 sm:py-40 lg:px-20">
         <Reveal>
           <Quote attribution={t.quoteAttribution}>{t.quoteText}</Quote>
+        </Reveal>
+      </section>
+
+      <section className="bg-chocolate px-6 pb-32 sm:pb-40 lg:px-20">
+        <Reveal className="mx-auto max-w-lg text-center">
+          <p className="font-editorial text-heading-sm sm:text-heading-md text-ivory/85 leading-relaxed italic">
+            {t.founderQuoteText}
+          </p>
+          <Divider tone="gold-rose" align="center" width="w-10" className="my-10" />
+          <div className="relative mx-auto w-full max-w-[200px]">
+            <Image
+              src={MEDIA.firmaVictor.url}
+              alt={MEDIA.firmaVictor.alt}
+              width={MEDIA.firmaVictor.width}
+              height={MEDIA.firmaVictor.height}
+              className="mix-blend-screen h-auto w-full opacity-90"
+            />
+          </div>
+          <p className="font-editorial text-caption text-gold-rose mt-4 italic">
+            {t.founderName}
+          </p>
         </Reveal>
       </section>
     </>

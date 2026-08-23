@@ -106,6 +106,8 @@ export interface Dictionary {
     values: { title: string; text: string }[];
     quoteText: string;
     quoteAttribution: string;
+    founderQuoteText: string;
+    founderName: string;
   };
   productores: {
     heroEyebrow: string;

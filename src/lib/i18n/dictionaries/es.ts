@@ -336,6 +336,9 @@ export const es: Dictionary = {
     quoteText:
       "El silencio es el lujo más caro. El espacio vacío no es ausencia de diseño: es la forma más sofisticada de diseño.",
     quoteAttribution: "Principio rector, Manual Maestro",
+    founderQuoteText:
+      "Comfort Life Ibérica nació para escuchar esos secretos. Y para llevarlos, sin prisa y sin ruido, a la mesa de quien sabe apreciarlos.",
+    founderName: "Víctor Viana, Fundador",
   },
   productores: {
     heroEyebrow: "Productores",

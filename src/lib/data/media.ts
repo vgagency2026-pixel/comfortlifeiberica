@@ -258,6 +258,21 @@ export const MEDIA = {
     1537,
     "Hombre de perfil oliendo una copa de vino blanco, luz cálida y ambiente íntimo",
   ),
+  // Fotografía nueva aportada por el cliente (carpeta VINOS/images 2/)
+  filosofiaHeroMiradorVinedo: img(
+    "filosofia-hero-mirador-vinedo.jpg",
+    1086,
+    1448,
+    "Mujer con vestido elegante contemplando un viñedo al atardecer, enmarcada en un espejo ovalado dorado",
+  ),
+  // Firma del fundador, recortada del original y recoloreada a champán
+  // sobre transparencia real (ver IMAGENES/VINOS/images 2/victor firma.jpeg)
+  firmaVictor: img(
+    "firma-victor.png",
+    509,
+    519,
+    "Firma manuscrita de Víctor Viana",
+  ),
 
   // Pared de galería de la Sala Vinos — 4 piezas ya enmarcadas en la propia
   // fotografía, recompuestas sobre un mismo lienzo 4:5 con fondo e
