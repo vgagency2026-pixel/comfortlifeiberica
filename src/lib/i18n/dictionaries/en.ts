@@ -334,7 +334,7 @@ export const en: Dictionary = {
     quoteAttribution: "Guiding principle, Master Manual",
     founderQuoteText:
       "Comfort Life Ibérica was born to listen to those secrets, and to carry them, unhurried and unannounced, to the table of those who know how to appreciate them.",
-    founderName: "Víctor Viana, Founder",
+    founderName: "Víctor Viana · Gastronomic Ambassador",
   },
   productores: {
     heroEyebrow: "Producers",

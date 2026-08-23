@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { SITE } from "@/lib/constants/site";
+import { AGENCY_CREDIT, SITE } from "@/lib/constants/site";
 import type { Dictionary, Locale } from "@/lib/i18n/types";
 
 interface FooterProps {
@@ -64,6 +64,17 @@ export function Footer({ dict }: FooterProps) {
             {dict.footer.rights}
           </p>
         </div>
+      </div>
+
+      <div className="max-w-content mx-auto mt-16 text-center lg:mt-20">
+        <a
+          href={AGENCY_CREDIT.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-ui text-overline text-ivory/50 hover:text-ivory/70 ease-elegant transition-colors duration-500"
+        >
+          {AGENCY_CREDIT.label}
+        </a>
       </div>
     </footer>
   );

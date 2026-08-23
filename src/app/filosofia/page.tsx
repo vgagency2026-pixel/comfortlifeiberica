@@ -23,7 +23,7 @@ export default async function FilosofiaPage() {
 
   return (
     <>
-      <section className="relative flex min-h-[85vh] items-end">
+      <section className="relative flex min-h-[92vh] items-center justify-center text-center">
         <FramedImage
           src={MEDIA.filosofiaHeroMiradorVinedo.url}
           alt={MEDIA.filosofiaHeroMiradorVinedo.alt}
@@ -32,20 +32,46 @@ export default async function FilosofiaPage() {
           frameless
           objectPosition="60% 35%"
           className="absolute inset-0"
-          imgClassName="brightness-[0.85]"
+          imgClassName="brightness-[0.7]"
         />
-        <div className="from-chocolate via-chocolate/35 to-chocolate/5 pointer-events-none absolute inset-0 bg-gradient-to-t" />
-        <div className="max-w-content relative mx-auto w-full px-6 pb-20 lg:px-20">
-          <Eyebrow>{t.heroEyebrow}</Eyebrow>
-          <h1 className="font-editorial text-display-sm sm:text-display-lg text-ivory mt-6 max-w-2xl leading-[1.05]">
-            <RevealText text={t.heroTitleLine1} />
-            <br />
-            <RevealText text={t.heroTitleLine2} delay={0.5} />
+        <div className="bg-chocolate/55 pointer-events-none absolute inset-0" />
+        <Reveal className="relative mx-auto max-w-2xl px-6 lg:px-20">
+          <h1 className="font-editorial text-heading-lg sm:text-display-sm text-ivory leading-snug italic">
+            {t.founderQuoteText}
           </h1>
-        </div>
+          <Divider
+            tone="gold-rose"
+            align="center"
+            width="w-10"
+            className="my-10"
+          />
+          <div className="relative mx-auto w-full max-w-[200px]">
+            <Image
+              src={MEDIA.firmaVictor.url}
+              alt={MEDIA.firmaVictor.alt}
+              width={MEDIA.firmaVictor.width}
+              height={MEDIA.firmaVictor.height}
+              className="mix-blend-screen h-auto w-full opacity-90"
+            />
+          </div>
+          <p className="font-editorial text-caption text-gold-rose mt-4 italic">
+            {t.founderName}
+          </p>
+        </Reveal>
       </section>
 
       <section className="bg-chocolate px-6 py-28 sm:py-36 lg:px-20">
+        <Reveal className="mx-auto max-w-2xl text-center">
+          <Eyebrow>{t.heroEyebrow}</Eyebrow>
+          <h2 className="font-editorial text-display-sm sm:text-display-md text-ivory mt-6 leading-[1.05]">
+            <RevealText text={t.heroTitleLine1} />
+            <br />
+            <RevealText text={t.heroTitleLine2} delay={0.5} />
+          </h2>
+        </Reveal>
+      </section>
+
+      <section className="bg-chocolate-medium px-6 py-28 sm:py-36 lg:px-20">
         <div className="mx-auto max-w-3xl">
           <Reveal>
             <Eyebrow>{t.manifestoEyebrow}</Eyebrow>
@@ -120,27 +146,6 @@ export default async function FilosofiaPage() {
       <section className="bg-chocolate px-6 py-32 sm:py-40 lg:px-20">
         <Reveal>
           <Quote attribution={t.quoteAttribution}>{t.quoteText}</Quote>
-        </Reveal>
-      </section>
-
-      <section className="bg-chocolate px-6 pb-32 sm:pb-40 lg:px-20">
-        <Reveal className="mx-auto max-w-lg text-center">
-          <p className="font-editorial text-heading-sm sm:text-heading-md text-ivory/85 leading-relaxed italic">
-            {t.founderQuoteText}
-          </p>
-          <Divider tone="gold-rose" align="center" width="w-10" className="my-10" />
-          <div className="relative mx-auto w-full max-w-[200px]">
-            <Image
-              src={MEDIA.firmaVictor.url}
-              alt={MEDIA.firmaVictor.alt}
-              width={MEDIA.firmaVictor.width}
-              height={MEDIA.firmaVictor.height}
-              className="mix-blend-screen h-auto w-full opacity-90"
-            />
-          </div>
-          <p className="font-editorial text-caption text-gold-rose mt-4 italic">
-            {t.founderName}
-          </p>
         </Reveal>
       </section>
     </>
