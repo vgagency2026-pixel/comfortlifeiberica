@@ -102,6 +102,16 @@ export const CATEGORIES: CategoryMeta[] = [
     image: MEDIA.anchoasBandejaPlata,
     coleccionImage: MEDIA.anchoasPintxo,
     salaImage: SALA_MEDIA.conservas ?? null,
+    salaGallery: {
+      images: [
+        MEDIA.conservasAnchoasPlata,
+        MEDIA.conservasPulpoBrasa,
+        MEDIA.conservasMejillones,
+        MEDIA.conservasAtunVino,
+      ],
+      framed: true,
+      backgroundImage: MEDIA.piedraMarOscura,
+    },
   },
   {
     slug: "quesos",

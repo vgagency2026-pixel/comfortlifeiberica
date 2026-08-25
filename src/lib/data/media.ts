@@ -338,4 +338,42 @@ export const MEDIA = {
     1600,
     "Textura de mesa de madera envejecida con luz cálida lateral",
   ),
+
+  // Pared de galería de la Sala Conservas (piloto nº 3, ver
+  // coleccion/[categoria]/page.tsx) — fotografía real sin marco propio,
+  // envuelta en el marco de museo y un grado de color cálido compartido.
+  conservasAnchoasPlata: img(
+    "conservas-anchoas-plata.jpg",
+    1402,
+    1122,
+    "Filetes de anchoa en aceite sobre una bandeja de plata antigua ornamentada, fondo oscuro",
+  ),
+  // Pexels License — Augustinus Martinus Noppé (pexels.com/photo/19533223)
+  conservasPulpoBrasa: img(
+    "conservas-pulpo-brasa.jpg",
+    2400,
+    3297,
+    "Pulpo a la brasa emplatado sobre fondo negro, con salsa verde y guarnición",
+  ),
+  // Pexels License — Deane Bayas (pexels.com/photo/39022517)
+  conservasMejillones: img(
+    "conservas-mejillones.jpg",
+    2000,
+    3000,
+    "Mejillones en salsa servidos con pan sobre fondo oscuro",
+  ),
+  // Pexels License — Shardar Tarikul Islam (pexels.com/photo/8983406)
+  conservasAtunVino: img(
+    "conservas-atun-vino.jpg",
+    2400,
+    3600,
+    "Ensalada de atún sobre mesa oscura junto a una copa de vino tinto",
+  ),
+  // Pexels License — urtimud.89 (pexels.com/photo/9328774), sin coste ni atribución obligatoria
+  piedraMarOscura: img(
+    "piedra-mar-oscura.jpg",
+    2400,
+    1600,
+    "Piedras oscuras y húmedas de costa, textura de fondo",
+  ),
 } as const;
