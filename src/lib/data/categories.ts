@@ -107,7 +107,7 @@ export const CATEGORIES: CategoryMeta[] = [
         MEDIA.conservasAnchoasPlata,
         MEDIA.conservasPulpoBrasa,
         MEDIA.conservasMejillones,
-        MEDIA.conservasAtunVino,
+        MEDIA.conservasCaviar,
       ],
       framed: true,
       backgroundImage: MEDIA.piedraMarOscura,

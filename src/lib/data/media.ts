@@ -362,12 +362,12 @@ export const MEDIA = {
     3000,
     "Mejillones en salsa servidos con pan sobre fondo oscuro",
   ),
-  // Pexels License — Shardar Tarikul Islam (pexels.com/photo/8983406)
-  conservasAtunVino: img(
-    "conservas-atun-vino.jpg",
+  // Pexels License — Rachel Claire (pexels.com/photo/8112427)
+  conservasCaviar: img(
+    "conservas-caviar.jpg",
     2400,
     3600,
-    "Ensalada de atún sobre mesa oscura junto a una copa de vino tinto",
+    "Lata de caviar negro sobre superficie oscura, composición mínima y elegante",
   ),
   // Pexels License — urtimud.89 (pexels.com/photo/9328774), sin coste ni atribución obligatoria
   piedraMarOscura: img(
