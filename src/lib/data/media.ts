@@ -376,4 +376,41 @@ export const MEDIA = {
     1600,
     "Piedras oscuras y húmedas de costa, textura de fondo",
   ),
+
+  // Pared de galería de la Sala Quesos (piloto nº 4, ver
+  // coleccion/[categoria]/page.tsx). La pieza 1 ya traía marco propio en
+  // la foto (carpeta QUESOS/): se recortó solo la fotografía interior,
+  // sin el marco dorado original, para evitar un marco dentro de otro
+  // marco al envolverla en el marco de museo del sitio junto al resto.
+  quesosGaleriaTorre: img(
+    "quesos-galeria-1-torre.jpg",
+    210,
+    600,
+    "Torre de seis quesos curados de distintas cortezas, fondo oscuro",
+  ),
+  quesosGaleriaTabla: img(
+    "quesos-galeria-2-tabla.jpg",
+    1023,
+    1537,
+    "Tabla de quesos, embutido y uvas negras sobre tronco de madera",
+  ),
+  quesosGaleriaVino: img(
+    "quesos-galeria-3-vino.jpg",
+    736,
+    1104,
+    "Tabla de quesos con uvas negras, higos y una copa de vino tinto",
+  ),
+  quesosGaleriaCorteza: img(
+    "quesos-galeria-4-corteza.jpg",
+    735,
+    1072,
+    "Primer plano de cortezas de distintos quesos artesanos",
+  ),
+  // Pexels License — Beyza Kaplan (pexels.com/photo/13989974), sin coste ni atribución obligatoria
+  cuevaPiedraCaliza: img(
+    "cueva-piedra-caliza.jpg",
+    2400,
+    1600,
+    "Textura de roca caliza de una cueva natural, luz cálida y tenue",
+  ),
 } as const;

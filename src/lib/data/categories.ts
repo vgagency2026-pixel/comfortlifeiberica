@@ -125,6 +125,16 @@ export const CATEGORIES: CategoryMeta[] = [
     image: MEDIA.quesosMarcoBarroco,
     coleccionImage: MEDIA.cunasQueso,
     salaImage: MEDIA.tablaQuesosOscura,
+    salaGallery: {
+      images: [
+        MEDIA.quesosGaleriaTorre,
+        MEDIA.quesosGaleriaTabla,
+        MEDIA.quesosGaleriaVino,
+        MEDIA.quesosGaleriaCorteza,
+      ],
+      framed: true,
+      backgroundImage: MEDIA.cuevaPiedraCaliza,
+    },
   },
   {
     slug: "embutidos",
