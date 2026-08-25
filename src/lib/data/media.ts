@@ -303,4 +303,39 @@ export const MEDIA = {
     1250,
     "Marco ovalado dorado barroco con una copa de vino tinto sostenida por una mano enguantada de encaje",
   ),
+
+  // Pared de galería de la Sala Aceites (piloto nº 2, ver
+  // coleccion/[categoria]/page.tsx) — fotografía real sin marco propio,
+  // envuelta en el marco de museo y un grado de color cálido compartido.
+  aceiteOlivarPiezaUno: img(
+    "aceite-olivar-1.jpg",
+    1200,
+    1600,
+    "Mano tomando una aceituna de un cuenco de barro junto a una copa de vino rosado, luz de atardecer",
+  ),
+  aceiteOlivarPiezaDos: img(
+    "aceite-olivar-2.jpg",
+    722,
+    1080,
+    "Aceite de oliva goteando entre dos aceitunas sobre piedras de molino apiladas",
+  ),
+  aceiteOlivarPiezaTres: img(
+    "aceite-olivar-3.jpg",
+    736,
+    981,
+    "Aceituna brillante sobre púas de madera con una gota de aceite cayendo, fondo oscuro",
+  ),
+  aceiteOlivarPiezaCuatro: img(
+    "aceite-olivar-4.jpg",
+    1080,
+    690,
+    "Tres cucharas antiguas con aceitunas negras, aceite de oliva y aceitunas verdes, fondo oscuro",
+  ),
+  // Pexels License — Malcolm Garret (pexels.com/photo/13425273), sin coste ni atribución obligatoria
+  mesaVintageMaderaDorada: img(
+    "mesa-vintage-madera-dorada.jpg",
+    2400,
+    1600,
+    "Textura de mesa de madera envejecida con luz cálida lateral",
+  ),
 } as const;

@@ -1,5 +1,5 @@
 import type { ProductCategory } from "@/types/product";
-import type { Image } from "@/types/image";
+import type { Image, SalaGalleryConfig } from "@/types/image";
 import type { PlaceholderVariant } from "@/components/ui/PlaceholderArt";
 import { MEDIA } from "./media";
 import { SALA_MEDIA } from "./sala-media";
@@ -24,11 +24,11 @@ export interface CategoryMeta {
   salaImage: Image | null;
   objectPositionSala?: string;
   /**
-   * Pared de galería de 4 piezas ya enmarcadas para el hero de la Sala,
-   * en sustitución de `salaImage`. Prueba piloto solo en Vinos — el resto
-   * de salas sigue usando el hero de imagen única (ver CATEGORIES abajo).
+   * Pared de galería de piezas para el hero de la Sala, en sustitución de
+   * `salaImage`. Piloto en Vinos y Aceites — el resto de salas sigue
+   * usando el hero de imagen única (ver CATEGORIES abajo).
    */
-  salaGalleryImages?: Image[];
+  salaGallery?: SalaGalleryConfig;
 }
 
 /**
@@ -57,12 +57,14 @@ export const CATEGORIES: CategoryMeta[] = [
     image: MEDIA.garnachaIlustrada,
     coleccionImage: MEDIA.hojaRocioVinedo,
     salaImage: MEDIA.broteCepaVinedo,
-    salaGalleryImages: [
-      MEDIA.vinosGaleriaUva,
-      MEDIA.vinosGaleriaVinedo,
-      MEDIA.vinosGaleriaVino,
-      MEDIA.vinosGaleriaExperiencia,
-    ],
+    salaGallery: {
+      images: [
+        MEDIA.vinosGaleriaUva,
+        MEDIA.vinosGaleriaVinedo,
+        MEDIA.vinosGaleriaVino,
+        MEDIA.vinosGaleriaExperiencia,
+      ],
+    },
   },
   {
     slug: "aceites",
@@ -77,6 +79,16 @@ export const CATEGORIES: CategoryMeta[] = [
     objectPosition: "50% 58%",
     coleccionImage: MEDIA.cucharasAceitunas,
     salaImage: MEDIA.aceiteGotaPiedra,
+    salaGallery: {
+      images: [
+        MEDIA.aceiteOlivarPiezaUno,
+        MEDIA.aceiteOlivarPiezaDos,
+        MEDIA.aceiteOlivarPiezaTres,
+        MEDIA.aceiteOlivarPiezaCuatro,
+      ],
+      framed: true,
+      backgroundImage: MEDIA.mesaVintageMaderaDorada,
+    },
   },
   {
     slug: "conservas",

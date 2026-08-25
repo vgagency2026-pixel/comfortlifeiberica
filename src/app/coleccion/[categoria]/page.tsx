@@ -58,15 +58,17 @@ export default async function SalaPage({ params }: SalaPageProps) {
   const salaImage = category.salaImage;
   const salaObjectPosition = category.objectPositionSala;
 
-  const galleryImages = category.salaGalleryImages;
+  const salaGallery = category.salaGallery;
 
   return (
     <>
-      {galleryImages ? (
+      {salaGallery ? (
         <SalaGalleryHero
           eyebrow={t.label}
           title={t.poeticTitle}
-          images={galleryImages}
+          images={salaGallery.images}
+          framed={salaGallery.framed}
+          backgroundImage={salaGallery.backgroundImage}
         />
       ) : (
       <section className="relative flex min-h-[80vh] items-end">
