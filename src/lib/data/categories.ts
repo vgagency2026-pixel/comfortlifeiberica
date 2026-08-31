@@ -148,6 +148,14 @@ export const CATEGORIES: CategoryMeta[] = [
     image: MEDIA.jamonMarcoCobre,
     coleccionImage: MEDIA.jamonLoncheado,
     salaImage: MEDIA.jamonMano,
+    salaGallery: {
+      images: [
+        MEDIA.ibericosGaleriaTabla,
+        MEDIA.ibericosGaleriaJamon,
+        MEDIA.ibericosGaleriaChorizo,
+        MEDIA.ibericosGaleriaBrochetas,
+      ],
+    },
   },
   {
     slug: "bebidas-espirituosas",

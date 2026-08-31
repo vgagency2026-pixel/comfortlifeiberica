@@ -413,4 +413,35 @@ export const MEDIA = {
     1600,
     "Textura de roca caliza de una cueva natural, luz cálida y tenue",
   ),
+
+  // Pared de galería de la Sala Ibéricos (piloto nº 5, ver
+  // coleccion/[categoria]/page.tsx). Marco ovalado barroco labrado, con
+  // luz lateral real y sombra proyectada en la pared — el mismo marco
+  // (carpeta VINOS/images 2/, ya usado como hero de Filosofía) recompuesto
+  // cuatro veces con contenido distinto de la carpeta IBERICOS/, en vez
+  // del marco de museo rectangular usado en Aceites/Conservas/Quesos.
+  ibericosGaleriaTabla: img(
+    "ibericos-galeria-1-tabla.jpg",
+    1086,
+    1448,
+    "Marco ovalado dorado labrado con una tabla de embutidos, quesos y pan",
+  ),
+  ibericosGaleriaJamon: img(
+    "ibericos-galeria-2-jamon.jpg",
+    1086,
+    1448,
+    "Marco ovalado dorado labrado con una mano sosteniendo una loncha de jamón ibérico",
+  ),
+  ibericosGaleriaChorizo: img(
+    "ibericos-galeria-3-chorizo.jpg",
+    1086,
+    1448,
+    "Marco ovalado dorado labrado con una pieza de embutido curado colgada",
+  ),
+  ibericosGaleriaBrochetas: img(
+    "ibericos-galeria-4-brochetas.jpg",
+    1086,
+    1448,
+    "Marco ovalado dorado labrado con brochetas de embutido ibérico enrollado",
+  ),
 } as const;
