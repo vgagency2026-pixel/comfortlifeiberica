@@ -173,6 +173,14 @@ export const CATEGORIES: CategoryMeta[] = [
     image: MEDIA.coctelNegroni,
     coleccionImage: MEDIA.coctelTerciopelo,
     salaImage: MEDIA.condensacionCopa,
+    salaGallery: {
+      images: [
+        MEDIA.destiladosGaleriaVermut,
+        MEDIA.destiladosGaleriaGin,
+        MEDIA.destiladosGaleriaBrandy,
+        MEDIA.destiladosGaleriaWhisky,
+      ],
+    },
   },
 ];
 

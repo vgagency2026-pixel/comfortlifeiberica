@@ -444,4 +444,37 @@ export const MEDIA = {
     1448,
     "Marco ovalado dorado labrado con brochetas de embutido ibérico enrollado",
   ),
+
+  // Pared de galería de la Sala Destilados (piloto nº 6, ver
+  // coleccion/[categoria]/page.tsx). Mismo marco ovalado labrado que
+  // Ibéricos, pero con contenido y grado de color más luminosos y
+  // veraniegos (luz de día, atardecer), en vez del tono más nocturno de
+  // las otras salas. Licencia Pexels/foto real del cliente, ver comentarios.
+  destiladosGaleriaVermut: img(
+    "destilados-galeria-1-vermut.jpg",
+    1086,
+    1448,
+    "Marco ovalado dorado labrado con una copa de vermut sobre mármol claro, aceitunas y naranja",
+  ),
+  // Pexels License — picjumbo.com (pexels.com/photo/225236)
+  destiladosGaleriaGin: img(
+    "destilados-galeria-2-gin.jpg",
+    1086,
+    1448,
+    "Marco ovalado dorado labrado con una copa de ginebra con tónica en una terraza soleada",
+  ),
+  // Pexels License — Toktak Phitsinee (pexels.com/photo/15344862)
+  destiladosGaleriaBrandy: img(
+    "destilados-galeria-3-brandy.jpg",
+    1086,
+    1448,
+    "Marco ovalado dorado labrado con una copa de brandy iluminada por luz de día",
+  ),
+  // Pexels License — Berkan Can (pexels.com/photo/29279649)
+  destiladosGaleriaWhisky: img(
+    "destilados-galeria-4-whisky.jpg",
+    1086,
+    1448,
+    "Marco ovalado dorado labrado con una copa de whisky junto a una piscina al atardecer",
+  ),
 } as const;
