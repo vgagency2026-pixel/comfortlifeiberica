@@ -23,7 +23,7 @@ export const EXPERIENCES: ExperienceMeta[] = [
   },
   {
     id: "experience-ladera-norte-altitud",
-    slug: "ladera-norte-por-que-la-altitud-cambia-el-vino",
+    slug: "ladera-norte-porque-la-altitud-cambia-el-vino",
     readingTime: "5 min",
     publishedAt: "2024-03-05",
     image: MEDIA.garnachaIlustrada,

@@ -450,7 +450,7 @@ export const en: Dictionary = {
         "What finally reaches the table is the sum of that entire journey: a landscape turned, after a great deal of time, into something that can be sliced.",
       ],
     },
-    "ladera-norte-por-que-la-altitud-cambia-el-vino": {
+    "ladera-norte-porque-la-altitud-cambia-el-vino": {
       title: "North-facing slope: why altitude changes the wine",
       excerpt:
         "One valley, two orientations, two wines that could never be mistaken for each other.",

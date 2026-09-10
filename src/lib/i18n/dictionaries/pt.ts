@@ -454,7 +454,7 @@ export const pt: Dictionary = {
         "O que finalmente chega à mesa é a soma de todo esse percurso: uma paisagem transformada, com muito tempo pelo meio, em algo que se pode cortar em fatias.",
       ],
     },
-    "ladera-norte-por-que-la-altitud-cambia-el-vino": {
+    "ladera-norte-porque-la-altitud-cambia-el-vino": {
       title: "Encosta norte: porque é que a altitude muda o vinho",
       excerpt:
         "Um mesmo vale, duas orientações, dois vinhos que nunca poderiam confundir-se.",

@@ -3,7 +3,7 @@ import type { Image } from "./image";
 export type ExperienceSlug =
   | "seis-meses-de-paciencia"
   | "la-montanera"
-  | "ladera-norte-por-que-la-altitud-cambia-el-vino"
+  | "ladera-norte-porque-la-altitud-cambia-el-vino"
   | "el-aceite-antes-del-aceite"
   | "el-aperitivo-como-ritual"
   | "un-verano-de-sal-y-vino-rosado";
