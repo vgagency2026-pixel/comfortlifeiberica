@@ -335,7 +335,7 @@ export const pt: Dictionary = {
       "A Península guarda segredos que não procuram ser descobertos. Vivem na altitude de uma vinha que ninguém visita, no azeite de uma oliveira que está aqui há mil anos, no mar que dita quando se pesca e quando não.",
       "A Comfort Life Ibérica nasceu para escutar esses segredos. E para os levar, sem pressa e sem ruído, à mesa de quem sabe apreciá-los.",
     ],
-    founderName: "Víctor Viana · Embaixador Gastronómico",
+    founderName: "Víctor Viana · Conselheiro Gastronómico",
   },
   productores: {
     heroEyebrow: "Produtores",

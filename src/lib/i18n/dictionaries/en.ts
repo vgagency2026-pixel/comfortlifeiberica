@@ -331,7 +331,7 @@ export const en: Dictionary = {
       "The Peninsula keeps secrets that do not seek to be found. They live in the altitude of a vineyard no one visits, in the oil of an olive tree that has stood here for a thousand years, in the sea that dictates when to fish and when not to.",
       "Comfort Life Ibérica was born to listen to those secrets. And to carry them, unhurried and unannounced, to the table of those who know how to appreciate them.",
     ],
-    founderName: "Víctor Viana · Gastronomic Ambassador",
+    founderName: "Víctor Viana · Gastronomic Advisor",
   },
   productores: {
     heroEyebrow: "Producers",

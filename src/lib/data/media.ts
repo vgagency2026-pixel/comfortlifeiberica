@@ -266,11 +266,11 @@ export const MEDIA = {
     "Mujer con vestido elegante contemplando un viñedo al atardecer, enmarcada en un espejo ovalado dorado",
   ),
   // Firma del fundador, recortada del original y recoloreada a champán
-  // sobre transparencia real (ver IMAGENES/VINOS/images 2/victor firma.jpeg)
+  // sobre transparencia real (ver IMAGENES/VINOS/firma nueva.jpg)
   firmaVictor: img(
-    "firma-victor.png",
-    509,
-    519,
+    "firma-victor-nueva.png",
+    970,
+    693,
     "Firma manuscrita de Víctor Viana",
   ),
 
